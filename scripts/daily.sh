@@ -12,7 +12,7 @@ mkdir -p reports
   # 先对齐远端，避免本地历史分叉
   git fetch -q origin main && git reset --hard -q origin/main
 
-  node scripts/check.mjs --concurrency 8 --timeout 12000
+  node scripts/check.mjs --concurrency 5 --timeout 12000
   node scripts/discover.mjs --max 40
   node scripts/build.mjs
 

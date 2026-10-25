@@ -75,6 +75,7 @@ main{padding:20px 0 40px}
 .b-live{color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,transparent)}
 .b-limited{color:var(--warn);background:color-mix(in srgb,var(--warn) 14%,transparent)}
 .b-pending{color:var(--muted);background:var(--chip)}
+.b-unreach{color:#8b5cf6;background:color-mix(in srgb,#8b5cf6 14%,transparent)}
 .b-dead{color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,transparent)}
 .stars{color:#f59e0b;letter-spacing:-1px;font-size:12px}
 .spd{font-family:ui-monospace,monospace}

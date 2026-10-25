@@ -54,9 +54,18 @@ const archive = await safeJson(ARCHIVE, { archived: [] });
 const history = await safeJson(REPORT, { updatedAt: '', sites: {} });
 history.sites ||= {};
 
-// ---------- 1. 探活（主域名失败自动试镜像/发布页） ----------
+// ---------- 1. 探活（失败重试 → 镜像回退；抗瞬时抖动） ----------
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 const results = await pool(db.resources, CONCURRENCY, async (r) => {
   let res = await probe(r.url, { timeout: TIMEOUT });
+
+  // 网络层失败或 5xx：间隔后重试一次，避免把 CDN/代理抖动记成站点死亡
+  if (!res.ok && !res.limited) {
+    await sleep(1500 + Math.floor(Math.random() * 800));
+    res = await probe(r.url, { timeout: TIMEOUT });
+  }
+
   let usedMirror = null;
   if (!res.ok && !res.limited) {
     for (const m of r.mirrors || []) {
@@ -93,23 +102,23 @@ for (const { r, res, usedMirror } of results) {
     if (res.ok) {
       r.failStreak = 0;
       r.lastOk = today;
+      delete r.unreachableSince;
       const seen = daysAgo(r.firstSeen); // pending 需过观察期才转正
       r.status = prev === 'pending' && seen < OBSERVE_DAYS ? 'pending' : 'live';
-    } else if (res.limited) {
-      // 受限：能通但被拦（CF/地区/需梯子），不算死
-      r.status = 'limited';
-      r.lastOk = r.lastOk || today;
-    } else if (r.reach === 'vpn') {
-      // 预期需梯子的站：本出口网络层不通属正常，判受限而非死亡，避免被归档
-      r.status = 'limited';
-      r.failStreak = 0;
-      r.lastOk = r.lastOk || today;
-    } else {
+    } else if (res.code === 404 || res.code === 410) {
+      // 明确的"资源不存在"：站点很可能已关停，才允许走向 dead
+      r.status = 'unreachable';
       r.failStreak = (r.failStreak || 0) + 1;
       if (r.failStreak >= FAIL_TO_DEAD) {
         r.status = 'dead';
         r.diedAt = r.diedAt || today;
       }
+    } else {
+      // 受限(403/429/451) 或 5xx/超时/DNS：只能说明"从当前出口不可达"，
+      // 无法区分站点关停与区域封锁（国内站对海外 IP 普遍 502/444），不计入死亡。
+      r.status = res.limited ? 'limited' : 'unreachable';
+      r.unreachableSince ||= today;
+      r.failStreak = 0;
     }
     if (r.status === 'live') delete r.diedAt;
   }

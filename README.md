@@ -79,31 +79,64 @@
 
 ---
 
-## 四、状态机（核心逻辑，改这里就能改策略）
+## 四、状态机与出口原则（核心逻辑，改这里就能改策略）
 
 ```
-           首检成功且满 7 天
- pending ───────────────────► live ◄──────────┐
-    │                          │              │ 恢复
-    │ 探活失败                  │ 失败×3        │
-    ▼                          ▼              │
- rejected                   dead ─────────────┘
-（不会进主表）                 │ 仍失败且 >14 天
-                              ▼
-                          archive.json（归档，可恢复）
+       首检成功且满 7 天
+pending ──────────────────► live ◄──────────────┐
+   │ 探活失败                 │ 404/410 连续×3     │ 恢复
+   ▼                         ▼                  │
+rejected                  dead ─────────────────┘
+（不进主表）                 │ >14 天未恢复
+                            ▼
+                    archive.json（归档，可恢复）
+
+live ──403/429/451──► limited      （被拦：CF/地区/需梯子）
+live ──5xx/超时/DNS──► unreachable （当前出口不可达）
 ```
+
+**关键区分：`unreachable` ≠ `dead`。** 这是踩过坑才定下来的规则：
+
+| 响应 | 状态 | 理由 |
+|---|---|---|
+| `2xx/3xx` | `live` | 可用 |
+| `403/429/451` | `limited` | 被拦，站点活着 |
+| `5xx`、超时、DNS 失败 | `unreachable` | **只能说明从当前出口连不上**，无法区分"站停运"和"区域封锁" |
+| `404/410` 连续 3 次 | `dead` | 服务器明确回答"没有这个页面"，才可能真死 |
+| `dead` 超 14 天 | `archive` | 归档留档，可恢复 |
+
+**为什么必须这样分**：项目最初的检测跑在 GitHub Actions，`Z-Library`（本机 307 正常）被判 `dead`，`爱壹帆`/`注视影视`（200 正常）被判 403 受限；换成另一台机器排查后发现出口 IP 在**巴西**，而国内影视/网盘站对海外 IP 普遍返回 `502/444`。如果按"失败即死"的模型，这些能用的站会在 14 天后被自动归档。
+
+**出口的真相与对策**：
+
+```bash
+# 先确认你的检测机出口在哪
+curl -s https://api.ipify.org        # 186.244.203.20 → 巴西
+```
+
+- 检测结果本质上只代表**该出口**的可达性。海外出口测国内站，会系统性误判。
+- 若站点面向国内用户，最理想的检测出口是一台国内小鸡（1 核 1G 足够）或干脆用自己手机定期点一遍。
+- 本项目默认把"不可达"降级为 `unreachable` 而不是 `dead`，就是为了在任何出口下都**不误杀**；宁可让前端多显示一个灰标，也不自动删数据。
+- 想提升出口可信度，可跑两个出口做交叉验证：`check.mjs`（权威，改状态）+ `check.mjs --observe-only`（异地，只写 `reports/` 可用率样本，带 `vantage` 字段记录出口）。
 
 阈值全部集中在文件顶部，改一行即生效：
 
 | 常量 | 位置 | 默认 | 含义 |
 |---|---|---|---|
-| `FAIL_TO_DEAD` | check.mjs | 3 | 连续失败几次判死（防单次网络抖动误杀） |
-| `ARCHIVE_AFTER_DAYS` | check.mjs | 14 | 判死后多久归档 |
+| `FAIL_TO_DEAD` | check.mjs | 3 | 404/410 连续几次判死 |
+| `ARCHIVE_AFTER_DAYS` | check.mjs | 14 | 判死后多久归档（仅 `dead` 会归档） |
 | `OBSERVE_DAYS` | check.mjs / discover.mjs | 7 | 新站观察期 |
 | `MIN_UPTIME` | discover.mjs | 0.6 | 观察期可用率门槛 |
 | `HISTORY_KEEP` | check.mjs | 40 | 每站保留检测记录数 |
 
-**判定规则**：`2xx/3xx` → 可用；`401/403/418/429/451` → 受限（Cloudflare、地区限制、需梯子，不算死）；`5xx/超时/DNS失败` → 失败计数。探活只读响应头 + 前 8KB 就断开，不拉整站。
+**抗抖动**：单站探活失败后间隔 1.5–2.3s 重试一次，再试 `mirrors[]`，三次都不通才记一次失败；并发默认 5，避免被 CDN 当成扫描。探活只读响应头 + 前 8KB 就断开，不拉整站。
+
+**两种运行模式**：
+
+```bash
+node scripts/check.mjs                 # 权威模式：改状态、评分、归档
+node scripts/check.mjs --observe-only  # 观察者模式：只追加 reports 样本，不碰状态
+```
 
 ---
 
@@ -122,6 +155,7 @@ nav/
 │   ├── check.mjs          # 每日检测流水线
 │   ├── discover.mjs       # 每周发现流水线
 │   ├── build.mjs          # 编译前端数据
+│   ├── daily.sh           # VPS 权威检测流水线（cron 调用）
 │   └── serve.mjs          # 零依赖本地预览
 ├── web/                   # 纯静态前端（无框架、无构建）
 │   ├── index.html
@@ -153,7 +187,17 @@ node scripts/serve.mjs 8090         # 打开 http://127.0.0.1:8090
 
 1. **GitHub Pages**（最省事）：仓库推上去 → Settings → Pages → Source 选 GitHub Actions，`deploy.yml` 自动接管。检测结果 commit 触发重新部署，全程零运维。
 2. **Cloudflare Pages / Vercel**：构建命令 `node scripts/build.mjs`，输出目录 `web`，免费额度足够日更。
-3. **自建 VPS**：`crontab -e` 加 `0 9 * * * cd /path/nav && node scripts/check.mjs && node scripts/build.mjs`，nginx 指向 `web/`。
+3. **自建 VPS + cron（当前采用）**：这台机器每天 09:00 自动跑完整流水线并 push，GitHub Actions 只负责部署页面。
+
+```bash
+chmod +x scripts/daily.sh
+# 安装定时任务（flock 防止重叠执行）
+(crontab -l 2>/dev/null; echo "0 9 * * * /usr/bin/flock -n /tmp/nav-daily.lock $(pwd)/scripts/daily.sh") | crontab -
+crontab -l          # 确认已写入
+./scripts/daily.sh  # 手动跑一次，日志见 reports/run.log
+```
+
+`daily.sh` 做的事：`git fetch/reset` 对齐远端 → 权威检测 → 发现候选 → 编译 → 提交 → push（失败自动 rebase 重试 3 次）。日志落 `reports/run.log`（已 gitignore，只保留最近 500 行）。
 
 ---
 

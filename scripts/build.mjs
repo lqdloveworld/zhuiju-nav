@@ -11,7 +11,7 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const db = JSON.parse(await fs.readFile(path.join(ROOT, 'data/resources.json'), 'utf8'));
 const report = await safeJson(path.join(ROOT, 'reports/availability.json'), { sites: {} });
 
-const STATUS_ORDER = { live: 0, limited: 1, pending: 2, dead: 3 };
+const STATUS_ORDER = { live: 0, limited: 1, pending: 2, unreachable: 3, dead: 4 };
 const CAT_ORDER = new Map(db.categories.map((c, i) => [c.id, i]));
 
 const items = db.resources
@@ -35,8 +35,8 @@ const items = db.resources
       code: r.check?.code ?? null,
       lastOk: r.lastOk || null,
       firstSeen: r.firstSeen || null,
-      // 前端默认不展示待观察与死亡站（用开关打开）
-      visible: r.status === 'live' || r.status === 'limited',
+      // 前端默认只隐藏确认死亡的站；"当前出口不可达"仍需展示（可能是区域封锁）
+      visible: r.status !== 'dead',
       search: [r.name, r.desc, ...(r.tags || []), safeHost(r.url)].join(' ').toLowerCase(),
     };
   })

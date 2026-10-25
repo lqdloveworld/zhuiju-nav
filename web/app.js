@@ -5,6 +5,7 @@ const state = { cat: 'all', q: '', sort: 'rank', showAll: false, data: null };
 const STATUS = {
   live: ['可用', 'b-live'],
   limited: ['受限', 'b-limited'],
+  unreachable: ['不可达', 'b-unreach'],
   pending: ['待观察', 'b-pending'],
   dead: ['已失效', 'b-dead'],
 };
