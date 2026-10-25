@@ -1,0 +1,8 @@
+/
+/?cat=online
+/?cat=panso
+/?cat=magnet
+/?cat=novel
+/?cat=app
+/?cat=tvbox
+/?cat=oss

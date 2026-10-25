@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.DS_Store
+
+# 本地环境
+.env
+.env.*
+!.env.example
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 临时文件
+*.log
+tmp/
+.cache/
+
+# 注意：web/data.json 与 reports/availability.json 需要入库
+# 前者是部署产物（Actions 里会重建），后者是检测历史（趋势数据源）

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>追剧导航 · 在线影视 / 网盘搜索 / 磁力BT / 小说资源</title>
+<meta name="description" content="人工精选并自动检测可用性的影视资源导航：在线影视、网盘搜索、磁力BT、小说资源、TVBox 接口、开源项目。失效站点自动下架。">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="./">
+      <span class="logo">🧭</span>
+      <span class="brand-txt">
+        <strong>追剧导航</strong>
+        <small id="upd">数据加载中…</small>
+      </span>
+    </a>
+    <div class="searchbox">
+      <input id="q" type="search" placeholder="搜站点 / 标签 / 域名，例如：夸克、磁力、4K" autocomplete="off">
+      <kbd>/</kbd>
+    </div>
+    <button id="theme" class="icon-btn" title="切换主题">🌗</button>
+  </div>
+</header>
+
+<section class="wrap hero">
+  <div class="stats" id="stats"></div>
+  <div class="tabs" id="tabs"></div>
+  <div class="filters">
+    <label class="chk"><input type="checkbox" id="showAll"> 显示受限 / 待观察</label>
+    <select id="sort">
+      <option value="rank">按推荐指数</option>
+      <option value="speed">按响应速度</option>
+      <option value="name">按名称</option>
+    </select>
+    <span class="pill" id="count"></span>
+  </div>
+</section>
+
+<main class="wrap">
+  <div id="grid" class="grid"></div>
+  <p id="empty" class="empty" hidden>没有匹配的站点，换个关键词试试。</p>
+</main>
+
+<footer class="wrap foot">
+  <p>本导航仅提供资源索引与可用性记录，不托管、不上传任何影视文件。站点内容由第三方提供，访问前请自行判断风险。</p>
+  <p class="muted">数据源 <code>data/resources.json</code> · 每日自动检测 · 连续失败自动归档 · <span id="gen"></span></p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

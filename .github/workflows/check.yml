@@ -1,0 +1,44 @@
+name: check-availability
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 每天 UTC 01:00 = 北京 09:00
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/resources.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nav-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 可用性检测 / 状态机 / 自动评分 / 归档
+        run: node scripts/check.mjs --concurrency 8 --timeout 12000
+
+      - name: 编译静态数据
+        run: node scripts/build.mjs
+
+      - name: 提交数据变更
+        run: |
+          git config user.name  "nav-bot"
+          git config user.email "nav-bot@users.noreply.github.com"
+          git add data reports web/data.json web/sitemap.txt
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "chore(check): $(date -u +%Y-%m-%d) 可用性检测 $(node -e "const s=require('./web/data.json').stats;console.log('live='+s.live+' limited='+s.limited+' dead='+s.dead)")"
+            git push
+          fi

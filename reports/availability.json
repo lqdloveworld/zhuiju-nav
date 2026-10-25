@@ -1,0 +1,564 @@
+{
+  "updatedAt": "2026-10-25T15:37:35.571Z",
+  "sites": {
+    "ppnix": {
+      "url": "https://www.ppnix.com/cn/",
+      "host": "ppnix.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 542,
+          "code": 200
+        }
+      ]
+    },
+    "dbku": {
+      "url": "https://www.dbku.tv",
+      "host": "dbku.tv",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 130,
+          "code": 200
+        }
+      ]
+    },
+    "sotvla": {
+      "url": "https://www.sotvla.cc/",
+      "host": "sotvla.cc",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 179,
+          "code": 200
+        }
+      ]
+    },
+    "tdgo": {
+      "url": "https://www.tdgo.shop",
+      "host": "tdgo.shop",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 1747,
+          "code": 206
+        }
+      ]
+    },
+    "appmovie": {
+      "url": "https://www.appmovie.art",
+      "host": "appmovie.art",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": true,
+          "ms": 517,
+          "code": 403
+        }
+      ]
+    },
+    "nivod": {
+      "url": "https://www.nivod.vip",
+      "host": "nivod.vip",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 9002,
+          "code": 0
+        }
+      ]
+    },
+    "dyrs": {
+      "url": "https://dyrs.tv",
+      "host": "dyrs.tv",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 180,
+          "code": 200
+        }
+      ]
+    },
+    "darkvod": {
+      "url": "https://darkvod.com",
+      "host": "darkvod.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 397,
+          "code": 200
+        }
+      ]
+    },
+    "libvio": {
+      "url": "https://libviobd.com",
+      "host": "libviobd.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": true,
+          "ms": 564,
+          "code": 403
+        }
+      ]
+    },
+    "bubu": {
+      "url": "https://bubuzhuiju.com",
+      "host": "bubuzhuiju.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 291,
+          "code": 206
+        }
+      ]
+    },
+    "iyf": {
+      "url": "https://iyf.tv",
+      "host": "iyf.tv",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 114,
+          "code": 200
+        }
+      ]
+    },
+    "gaze": {
+      "url": "https://gaze.red/",
+      "host": "gaze.red",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 832,
+          "code": 200
+        }
+      ]
+    },
+    "cvp": {
+      "url": "https://www.czzymovie.com",
+      "host": "czzymovie.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": true,
+          "ms": 454,
+          "code": 403
+        }
+      ]
+    },
+    "pansou": {
+      "url": "https://pansou.de",
+      "host": "pansou.de",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 404,
+          "code": 206
+        }
+      ]
+    },
+    "kkso": {
+      "url": "https://kkso.net",
+      "host": "kkso.net",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 1398,
+          "code": 502
+        }
+      ]
+    },
+    "zhuiju_us": {
+      "url": "https://www.zhuiju.us/",
+      "host": "zhuiju.us",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 1224,
+          "code": 502
+        }
+      ]
+    },
+    "gugeso": {
+      "url": "https://www.gugeso.com/",
+      "host": "gugeso.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 2460,
+          "code": 502
+        }
+      ]
+    },
+    "pomo": {
+      "url": "https://pomo.mom",
+      "host": "pomo.mom",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 1490,
+          "code": 200
+        }
+      ]
+    },
+    "btsj6": {
+      "url": "https://www.btsj6.com",
+      "host": "btsj6.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 2157,
+          "code": 200
+        }
+      ]
+    },
+    "ciligou": {
+      "url": "https://clg56.top",
+      "host": "clg56.top",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 1281,
+          "code": 0
+        }
+      ]
+    },
+    "btbtla": {
+      "url": "https://www.btbtla.com",
+      "host": "btbtla.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 976,
+          "code": 200
+        }
+      ]
+    },
+    "meijufen": {
+      "url": "https://www.mjf2020.com",
+      "host": "mjf2020.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 1026,
+          "code": 200
+        }
+      ]
+    },
+    "cilixiong": {
+      "url": "https://www.cilixiong.org",
+      "host": "cilixiong.org",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 176,
+          "code": 200
+        }
+      ]
+    },
+    "dyg22": {
+      "url": "https://www.dyg22.com",
+      "host": "dyg22.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 1385,
+          "code": 200
+        }
+      ]
+    },
+    "hdzu": {
+      "url": "https://hdzu.org",
+      "host": "hdzu.org",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": true,
+          "ms": 994,
+          "code": 403
+        }
+      ]
+    },
+    "owllook": {
+      "url": "https://www.owllook.net",
+      "host": "owllook.net",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 468,
+          "code": 206
+        }
+      ]
+    },
+    "jiumodiary": {
+      "url": "https://www.jiumodiary.com",
+      "host": "jiumodiary.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 511,
+          "code": 200
+        }
+      ]
+    },
+    "zlibrary": {
+      "url": "https://z-library.sk",
+      "host": "z-library.sk",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 1896,
+          "code": 0
+        }
+      ]
+    },
+    "annas": {
+      "url": "https://annas-archive.org",
+      "host": "annas-archive.org",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 455,
+          "code": 0
+        }
+      ]
+    },
+    "legado": {
+      "url": "https://github.com/gedoor/legado",
+      "host": "github.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 337,
+          "code": 206
+        }
+      ]
+    },
+    "kazumi": {
+      "url": "https://kazumi.app/download",
+      "host": "kazumi.app",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 225,
+          "code": 206
+        }
+      ]
+    },
+    "animeko": {
+      "url": "https://animeko.org/downloads/",
+      "host": "animeko.org",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 58,
+          "code": 200
+        }
+      ]
+    },
+    "selenetv": {
+      "url": "https://b.zhuiju.me/archives/4/",
+      "host": "b.zhuiju.me",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false,
+          "limited": false,
+          "ms": 727,
+          "code": 444
+        }
+      ]
+    },
+    "fongmi_tv": {
+      "url": "https://tv.xn--yhqu5zs87a.top/",
+      "host": "tv.xn--yhqu5zs87a.top",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 140,
+          "code": 200
+        }
+      ]
+    },
+    "xhztv_4k": {
+      "url": "http://xhztv.top/4k.json",
+      "host": "xhztv.top",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 89,
+          "code": 206
+        }
+      ]
+    },
+    "xhztv_dc": {
+      "url": "http://xhztv.top/dc",
+      "host": "xhztv.top",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 83,
+          "code": 206
+        }
+      ]
+    },
+    "laoliubei": {
+      "url": "https://raw.liucn.cc/box/m.json",
+      "host": "raw.liucn.cc",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 102,
+          "code": 206
+        }
+      ]
+    },
+    "tinghao": {
+      "url": "http://ztha.top/TVBox/GYCK.json",
+      "host": "ztha.top",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 1560,
+          "code": 206
+        }
+      ]
+    },
+    "moontvplus": {
+      "url": "https://github.com/mtvpls/MoonTVPlus",
+      "host": "github.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 381,
+          "code": 206
+        }
+      ]
+    },
+    "zyfun": {
+      "url": "https://github.com/Hiram-Wong/zyfun",
+      "host": "github.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 481,
+          "code": 206
+        }
+      ]
+    },
+    "pansou_api": {
+      "url": "https://github.com/fish2018/pansou",
+      "host": "github.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 99,
+          "code": 206
+        }
+      ]
+    },
+    "quarksave": {
+      "url": "https://github.com/Cp0204/quark-auto-save",
+      "host": "github.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 379,
+          "code": 206
+        }
+      ]
+    },
+    "cloudsaver": {
+      "url": "https://github.com/jiangrui1994/CloudSaver",
+      "host": "github.com",
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true,
+          "limited": false,
+          "ms": 362,
+          "code": 206
+        }
+      ]
+    }
+  }
+}

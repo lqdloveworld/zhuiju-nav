@@ -1,0 +1,40 @@
+name: discover-resources
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'   # 每周一 UTC 02:00 = 北京 10:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 采集候选 / 去重 / 探活 / 观察期转正
+        run: node scripts/discover.mjs --max 40
+
+      - name: 编译静态数据
+        run: node scripts/build.mjs
+
+      - name: 创建 PR（人工过目后再合并）
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'feat(discover): 自动发现新资源与观察期转正'
+          title: '🤖 资源发现：新增候选 / 转正'
+          body: |
+            自动采集流水线产物，请检查 `data/candidates.json` 与 `data/resources.json` 的 diff：
+            - 新增条目默认 `pending`，前端默认隐藏，7 天观察期后自动转正
+            - 探活失败的域名进入 `rejected`，不会污染主表
+            - 拒绝的条目直接关闭本 PR 并在 `candidates.json` 的 `blocklist` 里加入域名
+          branch: bot/discover
+          delete-branch: true
+          labels: automated, resources

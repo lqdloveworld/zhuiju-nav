@@ -1,0 +1,15 @@
+{
+  "name": "zhuiju-nav",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "可自动化维护的影视资源导航：在线影视 / 网盘搜索 / 磁力BT / 小说资源",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "discover": "node scripts/discover.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "all": "node scripts/check.mjs && node scripts/discover.mjs && node scripts/build.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

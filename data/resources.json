@@ -1,0 +1,1365 @@
+{
+  "version": 2,
+  "updatedAt": "2026-10-25T15:37:35.571Z",
+  "categories": [
+    {
+      "id": "online",
+      "name": "在线影视",
+      "icon": "🎬",
+      "desc": "直接在浏览器播放的影视站，夸克内核友好"
+    },
+    {
+      "id": "panso",
+      "name": "网盘搜索",
+      "icon": "🔍",
+      "desc": "搜索公开分享的网盘链接，转存后在线播放"
+    },
+    {
+      "id": "magnet",
+      "name": "磁力BT",
+      "icon": "🧲",
+      "desc": "磁力/BT 索引与 4K 原盘站"
+    },
+    {
+      "id": "novel",
+      "name": "小说资源",
+      "icon": "📚",
+      "desc": "小说搜索、电子书库、书源聚合"
+    },
+    {
+      "id": "app",
+      "name": "影视APP",
+      "icon": "📱",
+      "desc": "跨平台追剧客户端"
+    },
+    {
+      "id": "tvbox",
+      "name": "TVBox接口",
+      "icon": "📺",
+      "desc": "空壳播放器的配置接口地址"
+    },
+    {
+      "id": "oss",
+      "name": "开源项目",
+      "icon": "⭐",
+      "desc": "可自建、可二开的影视相关开源工程"
+    }
+  ],
+  "resources": [
+    {
+      "id": "ppnix",
+      "name": "PPnix",
+      "url": "https://www.ppnix.com/cn/",
+      "category": "online",
+      "tags": [
+        "热播剧",
+        "无广告"
+      ],
+      "desc": "热门在线影视，速度快/纯净",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 542,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.8
+    },
+    {
+      "id": "dbku",
+      "name": "独播库",
+      "url": "https://www.dbku.tv",
+      "category": "online",
+      "tags": [
+        "纯净"
+      ],
+      "desc": "页面无广告，资源成系列",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 130,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    },
+    {
+      "id": "sotvla",
+      "name": "搜TV啦",
+      "url": "https://www.sotvla.cc/",
+      "category": "online",
+      "tags": [
+        "国内外"
+      ],
+      "desc": "国内海外高清影视剧资源",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 179,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.3
+    },
+    {
+      "id": "tdgo",
+      "name": "白嫖者联盟",
+      "url": "https://www.tdgo.shop",
+      "category": "online",
+      "tags": [
+        "会员剧",
+        "需梯子"
+      ],
+      "desc": "热播剧更新快，含平台会员剧",
+      "scores": {
+        "rich": 5,
+        "fast": 3,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 1747,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4
+    },
+    {
+      "id": "appmovie",
+      "name": "APP影院",
+      "url": "https://www.appmovie.art",
+      "category": "online",
+      "tags": [
+        "纯净",
+        "无广告"
+      ],
+      "desc": "国内外热播剧，纯净无广告",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "limited",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 403,
+        "ms": 517,
+        "ok": false,
+        "limited": true,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "lastOk": "2026-10-25",
+      "rating": 4.8
+    },
+    {
+      "id": "nivod",
+      "name": "泥视频",
+      "url": "https://www.nivod.vip",
+      "category": "online",
+      "tags": [
+        "国剧",
+        "更新快"
+      ],
+      "desc": "热门国剧，无广告",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 5,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 0,
+        "ms": 9002,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "error": "timeout",
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 1,
+      "rating": 4.3
+    },
+    {
+      "id": "dyrs",
+      "name": "电影人生",
+      "url": "https://dyrs.tv",
+      "category": "online",
+      "tags": [
+        "电影"
+      ],
+      "desc": "高清电影在线观看",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 180,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.3
+    },
+    {
+      "id": "darkvod",
+      "name": "黑夜影院",
+      "url": "https://darkvod.com",
+      "category": "online",
+      "tags": [
+        "综合"
+      ],
+      "desc": "综合影视资源多，无广告",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 4,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 397,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4
+    },
+    {
+      "id": "libvio",
+      "name": "LIBVIO",
+      "url": "https://libviobd.com",
+      "category": "online",
+      "tags": [
+        "海外剧",
+        "发布页"
+      ],
+      "desc": "海外影视老站，备用域名见发布页",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "limited",
+      "firstSeen": "2026-10-25",
+      "mirrors": [
+        "https://www.libvio.app"
+      ],
+      "check": {
+        "code": 403,
+        "ms": 564,
+        "ok": false,
+        "limited": true,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "lastOk": "2026-10-25",
+      "rating": 4
+    },
+    {
+      "id": "bubu",
+      "name": "布布追剧",
+      "url": "https://bubuzhuiju.com",
+      "category": "online",
+      "tags": [
+        "有广告"
+      ],
+      "desc": "速度快，有广告可接受",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 2,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 291,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.8
+    },
+    {
+      "id": "iyf",
+      "name": "爱壹帆",
+      "url": "https://iyf.tv",
+      "category": "online",
+      "tags": [
+        "海外华人",
+        "需梯子"
+      ],
+      "desc": "面向海外华人的影视站",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 3,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 114,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.3
+    },
+    {
+      "id": "gaze",
+      "name": "注视影视",
+      "url": "https://gaze.red/",
+      "category": "online",
+      "tags": [
+        "综合",
+        "需梯子"
+      ],
+      "desc": "国内海外影视剧资源",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 4,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 832,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.569Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.8
+    },
+    {
+      "id": "cvp",
+      "name": "厂长资源",
+      "url": "https://www.czzymovie.com",
+      "category": "online",
+      "tags": [
+        "秒播",
+        "有广告"
+      ],
+      "desc": "高清秒播不卡顿，有广告",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 2,
+        "stable": 3
+      },
+      "status": "limited",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 403,
+        "ms": 454,
+        "ok": false,
+        "limited": true,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "lastOk": "2026-10-25",
+      "rating": 3.5
+    },
+    {
+      "id": "pansou",
+      "name": "PanSou",
+      "url": "https://pansou.de",
+      "category": "panso",
+      "tags": [
+        "夸克",
+        "纯净"
+      ],
+      "desc": "纯净的夸克网盘资源搜索引擎",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [
+        "https://github.com/fish2018/pansou"
+      ],
+      "check": {
+        "code": 206,
+        "ms": 404,
+        "ok": true,
+        "limited": false,
+        "mirror": "https://github.com/fish2018/pansou",
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    },
+    {
+      "id": "kkso",
+      "name": "夸克搜",
+      "url": "https://kkso.net",
+      "category": "panso",
+      "tags": [
+        "夸克",
+        "百度"
+      ],
+      "desc": "夸克/百度网盘聚合搜索",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 502,
+        "ms": 1398,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 1,
+      "rating": 4.5
+    },
+    {
+      "id": "zhuiju_us",
+      "name": "追剧吧",
+      "url": "https://www.zhuiju.us/",
+      "category": "panso",
+      "tags": [
+        "影视",
+        "合集"
+      ],
+      "desc": "国内外热门影视网盘资源搜索",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 502,
+        "ms": 1224,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 1,
+      "rating": 4.3
+    },
+    {
+      "id": "gugeso",
+      "name": "谷哥搜",
+      "url": "https://www.gugeso.com/",
+      "category": "panso",
+      "tags": [
+        "9网盘"
+      ],
+      "desc": "支持 9 种网盘的综合搜索站",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 502,
+        "ms": 2460,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 1,
+      "rating": 4.3
+    },
+    {
+      "id": "pomo",
+      "name": "4K原盘站",
+      "url": "https://pomo.mom",
+      "category": "magnet",
+      "tags": [
+        "4K",
+        "原盘"
+      ],
+      "desc": "4K 原盘磁力免费下载",
+      "scores": {
+        "rich": 5,
+        "fast": 3,
+        "clean": 3,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1490,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.8
+    },
+    {
+      "id": "btsj6",
+      "name": "BT世界网",
+      "url": "https://www.btsj6.com",
+      "category": "magnet",
+      "tags": [
+        "美剧",
+        "种子"
+      ],
+      "desc": "高清电影美剧 BT 种子",
+      "scores": {
+        "rich": 5,
+        "fast": 2,
+        "clean": 3,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 2157,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.5
+    },
+    {
+      "id": "ciligou",
+      "name": "磁力狗",
+      "url": "https://clg56.top",
+      "category": "magnet",
+      "tags": [
+        "磁力搜索"
+      ],
+      "desc": "干净好用的磁力资源搜索",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 4,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 0,
+        "ms": 1281,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "error": "fetch failed",
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 1,
+      "rating": 3.8
+    },
+    {
+      "id": "btbtla",
+      "name": "BT影视",
+      "url": "https://www.btbtla.com",
+      "category": "magnet",
+      "tags": [
+        "4K"
+      ],
+      "desc": "4K 高清电影 BT 下载",
+      "scores": {
+        "rich": 4,
+        "fast": 3,
+        "clean": 3,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 976,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.5
+    },
+    {
+      "id": "meijufen",
+      "name": "美剧粉",
+      "url": "https://www.mjf2020.com",
+      "category": "magnet",
+      "tags": [
+        "美剧"
+      ],
+      "desc": "美剧资源全高清无广告",
+      "scores": {
+        "rich": 4,
+        "fast": 3,
+        "clean": 5,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1026,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.8
+    },
+    {
+      "id": "cilixiong",
+      "name": "磁力熊",
+      "url": "https://www.cilixiong.org",
+      "category": "magnet",
+      "tags": [
+        "无删减"
+      ],
+      "desc": "无删减、无广告磁力站",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 176,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.3
+    },
+    {
+      "id": "dyg22",
+      "name": "电影港网",
+      "url": "https://www.dyg22.com",
+      "category": "magnet",
+      "tags": [
+        "无水印",
+        "4K"
+      ],
+      "desc": "无水印 4K 高清 BT 种子",
+      "scores": {
+        "rich": 4,
+        "fast": 3,
+        "clean": 3,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1385,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.5
+    },
+    {
+      "id": "hdzu",
+      "name": "高清族",
+      "url": "https://hdzu.org",
+      "category": "magnet",
+      "tags": [
+        "1080P"
+      ],
+      "desc": "1080P / 4K 电影下载",
+      "scores": {
+        "rich": 3,
+        "fast": 3,
+        "clean": 3,
+        "stable": 3
+      },
+      "status": "limited",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 403,
+        "ms": 994,
+        "ok": false,
+        "limited": true,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "lastOk": "2026-10-25",
+      "rating": 3
+    },
+    {
+      "id": "owllook",
+      "name": "owllook",
+      "url": "https://www.owllook.net",
+      "category": "novel",
+      "tags": [
+        "多源聚合",
+        "开源"
+      ],
+      "desc": "聚合多站书源的小说搜索引擎",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [
+        "https://github.com/howie6879/owllook"
+      ],
+      "check": {
+        "code": 206,
+        "ms": 468,
+        "ok": true,
+        "limited": false,
+        "mirror": "https://github.com/howie6879/owllook",
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.3
+    },
+    {
+      "id": "jiumodiary",
+      "name": "鸠摩搜书",
+      "url": "https://www.jiumodiary.com",
+      "category": "novel",
+      "tags": [
+        "电子书",
+        "网盘"
+      ],
+      "desc": "聚合网盘电子书资源的搜索入口",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 511,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    },
+    {
+      "id": "zlibrary",
+      "name": "Z-Library",
+      "url": "https://z-library.sk",
+      "category": "novel",
+      "tags": [
+        "电子书",
+        "需梯子"
+      ],
+      "desc": "千万册电子书自助上传库，域名轮换频繁",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 3,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 0,
+        "ms": 1896,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "error": "fetch failed",
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 1,
+      "rating": 3.8
+    },
+    {
+      "id": "annas",
+      "name": "Anna's Archive",
+      "url": "https://annas-archive.org",
+      "category": "novel",
+      "tags": [
+        "电子书",
+        "需梯子"
+      ],
+      "desc": "开放图书馆元搜索，覆盖面最广",
+      "scores": {
+        "rich": 5,
+        "fast": 3,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 0,
+        "ms": 455,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "error": "fetch failed",
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 1,
+      "rating": 4
+    },
+    {
+      "id": "legado",
+      "name": "阅读 Legado",
+      "url": "https://github.com/gedoor/legado",
+      "category": "novel",
+      "tags": [
+        "书源",
+        "开源"
+      ],
+      "desc": "开源阅读器，导入书源后全网追更",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 337,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 5
+    },
+    {
+      "id": "kazumi",
+      "name": "Kazumi",
+      "url": "https://kazumi.app/download",
+      "category": "app",
+      "tags": [
+        "番剧",
+        "跨平台"
+      ],
+      "desc": "免费无广告的番剧采集与在线观看",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [
+        "https://github.com/Predidit/Kazumi"
+      ],
+      "check": {
+        "code": 206,
+        "ms": 225,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.8
+    },
+    {
+      "id": "animeko",
+      "name": "Animeko",
+      "url": "https://animeko.org/downloads/",
+      "category": "app",
+      "tags": [
+        "番剧",
+        "弹幕"
+      ],
+      "desc": "一站式弹幕追番平台",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [
+        "https://github.com/open-ani/animeko"
+      ],
+      "check": {
+        "code": 200,
+        "ms": 58,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.8
+    },
+    {
+      "id": "selenetv",
+      "name": "SeleneTV",
+      "url": "https://b.zhuiju.me/archives/4/",
+      "category": "app",
+      "tags": [
+        "MoonTV"
+      ],
+      "desc": "MoonTV 跨平台客户端",
+      "scores": {
+        "rich": 3,
+        "fast": 4,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 444,
+        "ms": 727,
+        "ok": false,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 1,
+      "rating": 4
+    },
+    {
+      "id": "fongmi_tv",
+      "name": "FongMi 影视",
+      "url": "https://tv.xn--yhqu5zs87a.top/",
+      "category": "tvbox",
+      "tags": [
+        "空壳",
+        "带源"
+      ],
+      "desc": "TVBox 二开空壳，自带视频源",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 140,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    },
+    {
+      "id": "xhztv_4k",
+      "name": "小盒子4K 接口",
+      "url": "http://xhztv.top/4k.json",
+      "category": "tvbox",
+      "tags": [
+        "配置JSON"
+      ],
+      "desc": "TVBox 4K 单仓配置地址",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 89,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    },
+    {
+      "id": "xhztv_dc",
+      "name": "小盒子多仓",
+      "url": "http://xhztv.top/dc",
+      "category": "tvbox",
+      "tags": [
+        "多仓"
+      ],
+      "desc": "多仓聚合配置，含多个子源",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 83,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    },
+    {
+      "id": "laoliubei",
+      "name": "老刘备",
+      "url": "https://raw.liucn.cc/box/m.json",
+      "category": "tvbox",
+      "tags": [
+        "配置JSON"
+      ],
+      "desc": "稳定维护的 TVBox 配置",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 102,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.3
+    },
+    {
+      "id": "tinghao",
+      "name": "挺好分享多仓",
+      "url": "http://ztha.top/TVBox/GYCK.json",
+      "category": "tvbox",
+      "tags": [
+        "多仓"
+      ],
+      "desc": "多仓配置，源更换较勤",
+      "scores": {
+        "rich": 4,
+        "fast": 3,
+        "clean": 3,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 1560,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 3.3
+    },
+    {
+      "id": "moontvplus",
+      "name": "MoonTVPlus",
+      "url": "https://github.com/mtvpls/MoonTVPlus",
+      "category": "oss",
+      "tags": [
+        "聚合播放器"
+      ],
+      "desc": "MoonTV 增强版影视聚合播放器，可自建",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 381,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 5
+    },
+    {
+      "id": "zyfun",
+      "name": "zyfun",
+      "url": "https://github.com/Hiram-Wong/zyfun",
+      "category": "oss",
+      "tags": [
+        "桌面端"
+      ],
+      "desc": "跨平台桌面视频资源播放器",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 481,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.8
+    },
+    {
+      "id": "pansou_api",
+      "name": "pansou API",
+      "url": "https://github.com/fish2018/pansou",
+      "category": "oss",
+      "tags": [
+        "网盘搜索",
+        "API"
+      ],
+      "desc": "高性能网盘资源搜索 API 服务，可自架",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 99,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.570Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 5
+    },
+    {
+      "id": "quarksave",
+      "name": "quark-auto-save",
+      "url": "https://github.com/Cp0204/quark-auto-save",
+      "category": "oss",
+      "tags": [
+        "自动转存"
+      ],
+      "desc": "夸克网盘自动签到、转存、整理",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 379,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.571Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    },
+    {
+      "id": "cloudsaver",
+      "name": "CloudSaver",
+      "url": "https://github.com/jiangrui1994/CloudSaver",
+      "category": "oss",
+      "tags": [
+        "转存"
+      ],
+      "desc": "网盘资源搜索与转存工具",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 362,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "at": "2026-10-25T15:37:35.571Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "rating": 4.5
+    }
+  ]
+}
