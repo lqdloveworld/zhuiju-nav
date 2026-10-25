@@ -1,59 +1,28 @@
 name: check-availability
 
+# 说明：GitHub Actions 位于海外出口，对国内站点会大面积误报 403/timeout。
+# 权威检测已迁移到项目自己的 VPS（scripts/daily.sh + crontab，国内出口）。
+# 本工作流仅保留手动触发，用于异地视角抽样，且只写观察数据、不改站点状态、不提交代码。
+
 on:
-  schedule:
-    - cron: '0 1 * * *'   # 每天 UTC 01:00 = 北京 09:00
   workflow_dispatch:
-  push:
-    paths:
-      - 'data/resources.json'
 
 permissions:
-  contents: write
-
-concurrency:
-  group: nav-check
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  check:
+  observe:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: 可用性检测 / 状态机 / 自动评分 / 归档
-        run: node scripts/check.mjs --concurrency 8 --timeout 12000
+      - name: 异地视角抽样（observe-only，不改状态）
+        run: node scripts/check.mjs --observe-only --concurrency 6 --timeout 12000
+        continue-on-error: true
 
-      - name: 编译静态数据
+      - name: 输出站点清单摘要
         run: node scripts/build.mjs
-
-      - name: 提交数据变更
-        run: |
-          git config user.name  "nav-bot"
-          git config user.email "nav-bot@users.noreply.github.com"
-          git add data reports web/data.json web/sitemap.txt
-          if git diff --cached --quiet; then
-            echo "无变更"; exit 0
-          fi
-          git commit -m "chore(check): $(date -u +%Y-%m-%d) 可用性检测 $(node -e "const s=require('./web/data.json').stats;console.log('live='+s.live+' limited='+s.limited+' dead='+s.dead)")"
-
-          # 并发/其他 push 可能抢占，rebase 后重试；仍冲突则重新生成数据（纯派生数据，重跑最稳）
-          for i in 1 2 3; do
-            if git push; then echo "push 成功（第 $i 次）"; exit 0; fi
-            echo "push 被拒，尝试 rebase 重试 $i/3"
-            if ! git pull --rebase --autostash origin main; then
-              git rebase --abort 2>/dev/null || true
-              echo "rebase 冲突，重新采集数据后再提交"
-              git fetch origin main && git reset --hard origin/main
-              node scripts/check.mjs --concurrency 8 --timeout 12000
-              node scripts/build.mjs
-              git add data reports web/data.json web/sitemap.txt
-              git commit -m "chore(check): $(date -u +%Y-%m-%d) 可用性检测（重采）"
-            fi
-            sleep 3
-          done
-          echo "push 连续失败，退出"; exit 1
