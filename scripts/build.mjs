@@ -67,7 +67,7 @@ const out = {
     limited: items.filter((i) => i.status === 'limited').length,
     dead: items.filter((i) => i.status === 'dead').length,
     pending: items.filter((i) => i.status === 'pending').length,
-    avgMs: avg(items.map((i) => i.ms).filter(Boolean)),
+    avgMs: meanMs(items.map((i) => i.ms).filter((n) => typeof n === 'number' && n > 0)),
   },
 };
 
@@ -82,5 +82,6 @@ console.log(
 );
 
 function avg(s) { return s ? Math.round(((s.rich + s.fast + s.clean + s.stable) / 4) * 10) / 10 : 3; }
+function meanMs(arr) { return arr.length ? Math.round(arr.reduce((a, b) => a + b, 0) / arr.length) : null; }
 function safeHost(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } }
 async function safeJson(p, def) { try { return JSON.parse(await fs.readFile(p, 'utf8')); } catch { return def; } }

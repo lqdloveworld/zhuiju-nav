@@ -37,8 +37,23 @@ jobs:
           git config user.email "nav-bot@users.noreply.github.com"
           git add data reports web/data.json web/sitemap.txt
           if git diff --cached --quiet; then
-            echo "无变更"
-          else
-            git commit -m "chore(check): $(date -u +%Y-%m-%d) 可用性检测 $(node -e "const s=require('./web/data.json').stats;console.log('live='+s.live+' limited='+s.limited+' dead='+s.dead)")"
-            git push
+            echo "无变更"; exit 0
           fi
+          git commit -m "chore(check): $(date -u +%Y-%m-%d) 可用性检测 $(node -e "const s=require('./web/data.json').stats;console.log('live='+s.live+' limited='+s.limited+' dead='+s.dead)")"
+
+          # 并发/其他 push 可能抢占，rebase 后重试；仍冲突则重新生成数据（纯派生数据，重跑最稳）
+          for i in 1 2 3; do
+            if git push; then echo "push 成功（第 $i 次）"; exit 0; fi
+            echo "push 被拒，尝试 rebase 重试 $i/3"
+            if ! git pull --rebase --autostash origin main; then
+              git rebase --abort 2>/dev/null || true
+              echo "rebase 冲突，重新采集数据后再提交"
+              git fetch origin main && git reset --hard origin/main
+              node scripts/check.mjs --concurrency 8 --timeout 12000
+              node scripts/build.mjs
+              git add data reports web/data.json web/sitemap.txt
+              git commit -m "chore(check): $(date -u +%Y-%m-%d) 可用性检测（重采）"
+            fi
+            sleep 3
+          done
+          echo "push 连续失败，退出"; exit 1
