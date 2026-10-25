@@ -1,5 +1,588 @@
 {
-  "pending": [],
-  "rejected": [],
+  "pending": [
+    {
+      "id": "novipnoad-org",
+      "name": "No影视",
+      "url": "https://novipnoad.org/",
+      "host": "novipnoad.org",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 403,
+        "ms": 1201,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "id": "ddmf-net",
+      "name": "蛋蛋魔法",
+      "url": "https://ddmf.net",
+      "host": "ddmf.net",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 253,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "sorani-net",
+      "name": "青空次元",
+      "url": "https://www.sorani.net",
+      "host": "sorani.net",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 3643,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "kuhh4jo-com",
+      "name": "爱电影",
+      "url": "https://kuhh4jo.com",
+      "host": "kuhh4jo.com",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 3128,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "netflixgc-com",
+      "name": "奈飞工厂",
+      "url": "https://www.netflixgc.com",
+      "host": "netflixgc.com",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 243,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "nfyingshi-com",
+      "name": "奈菲影视",
+      "url": "https://www.nfyingshi.com",
+      "host": "nfyingshi.com",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 405,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "ymck-pro",
+      "name": "影猫仓库",
+      "url": "https://www.ymck.pro",
+      "host": "ymck.pro",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 262,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "assrt-net",
+      "name": "射手网(伪)",
+      "url": "https://assrt.net",
+      "host": "assrt.net",
+      "category": "magnet",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 1217,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "subhd-tv",
+      "name": "SubHD",
+      "url": "https://subhd.tv",
+      "host": "subhd.tv",
+      "category": "magnet",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 74,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "kodi-tv",
+      "name": "Kodi",
+      "url": "https://kodi.tv/",
+      "host": "kodi.tv",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 403,
+        "ms": 76,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "id": "xn-sss604efuw-net",
+      "name": "饭太硬",
+      "url": "http://www.饭太硬.net/tv",
+      "host": "xn--sss604efuw.net",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 677,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "xn-z7x900a-net",
+      "name": "肥猫",
+      "url": "http://肥猫.net/",
+      "host": "xn--z7x900a.net",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 206,
+        "ms": 5729,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "szyyds-cn",
+      "name": "小马",
+      "url": "https://szyyds.cn/tv/x.json",
+      "host": "szyyds.cn",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 206,
+        "ms": 1824,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "cnb-cool",
+      "name": "潇洒",
+      "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
+      "host": "cnb.cool",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 524,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "new-xn-4kq62z5rby2qupq9ub-top",
+      "name": "王二小",
+      "url": "http://new.王二小放牛娃.top",
+      "host": "new.xn--4kq62z5rby2qupq9ub.top",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 206,
+        "ms": 328,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "itv666-cc",
+      "name": "嗷呜",
+      "url": "http://itv666.cc/aowu/config.webp",
+      "host": "itv666.cc",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 206,
+        "ms": 2141,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "6800-kstore-vip",
+      "name": "无名",
+      "url": "https://6800.kstore.vip/fish.json",
+      "host": "6800.kstore.vip",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 206,
+        "ms": 453,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "xmbjm-fh4u-org",
+      "name": "拾光多仓",
+      "url": "http://xmbjm.fh4u.org/dc.txt",
+      "host": "xmbjm.fh4u.org",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 661,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "xhztv-pro",
+      "name": "小盒子",
+      "url": "https://www.xhztv.pro/",
+      "host": "xhztv.pro",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 200,
+        "ms": 286,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "mp4ba-vip",
+      "name": "高清MP4",
+      "url": "https://www.mp4ba.vip",
+      "host": "mp4ba.vip",
+      "category": "magnet",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "source": "zhuiju",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 403,
+        "ms": 778,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "id": "linux-do",
+      "name": "LINUX DO",
+      "url": "https://linux.do",
+      "host": "linux.do",
+      "category": "online",
+      "tags": [],
+      "desc": "自动发现于 zhuiju-readme",
+      "source": "zhuiju-readme",
+      "status": "pending",
+      "firstSeen": "2026-10-25",
+      "failStreak": 0,
+      "lastOk": "2026-10-25",
+      "check": {
+        "code": 403,
+        "ms": 56,
+        "at": "2026-10-25T16:00:11.547Z"
+      },
+      "runs": [
+        {
+          "d": "2026-10-25",
+          "ok": false
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "host": "xlys.me",
+      "url": "https://xlys.me/",
+      "name": "雪落影视",
+      "at": "2026-10-25",
+      "reason": "probe timeout"
+    },
+    {
+      "host": "duonaovod.com",
+      "url": "https://www.duonaovod.com",
+      "name": "多瑙影视",
+      "at": "2026-10-25",
+      "reason": "probe 404"
+    },
+    {
+      "host": "vv3nwjk.com",
+      "url": "https://www.vv3nwjk.com",
+      "name": "金牌影视",
+      "at": "2026-10-25",
+      "reason": "probe 521"
+    },
+    {
+      "host": "937tv.vip",
+      "url": "https://www.937tv.vip",
+      "name": "937影视",
+      "at": "2026-10-25",
+      "reason": "probe 500"
+    },
+    {
+      "host": "au1080.com",
+      "url": "https://au1080.com",
+      "name": "Auete影视",
+      "at": "2026-10-25",
+      "reason": "probe fetch failed"
+    },
+    {
+      "host": "zimuku.org",
+      "url": "https://zimuku.org",
+      "name": "字幕库",
+      "at": "2026-10-25",
+      "reason": "probe 404"
+    },
+    {
+      "host": "xn--v4q818bf34b.cc",
+      "url": "http://摸鱼儿.cc",
+      "name": "摸鱼儿",
+      "at": "2026-10-25",
+      "reason": "probe fetch failed"
+    },
+    {
+      "host": "rihou.cc",
+      "url": "http://rihou.cc:88/demo.php",
+      "name": "VOX",
+      "at": "2026-10-25",
+      "reason": "probe timeout"
+    }
+  ],
   "blocklist": []
 }
