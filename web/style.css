@@ -97,3 +97,22 @@ code{background:var(--chip);padding:1px 6px;border-radius:5px;font-size:12px}
   .grid{grid-template-columns:1fr}
   .tab{padding:7px 12px;font-size:13px}
 }
+
+/* 书名直达 */
+.bookbar{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px;box-shadow:var(--shadow)}
+.bookbar[hidden]{display:none}
+.bookbar-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.bookbar-label{font-size:13.5px;font-weight:600;color:var(--fg);flex:none}
+#book{flex:1;min-width:200px;height:38px;padding:0 13px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg);font-size:14px;outline:none;transition:.18s}
+#book:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent)}
+.bookgo{flex:none;height:38px;padding:0 16px;border:1px solid var(--accent);border-radius:10px;background:var(--accent);color:#fff;font-size:13.5px;font-weight:600;cursor:pointer;transition:.16s}
+.bookgo:hover{filter:brightness(1.08)}
+.bookhits{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+.bookhits:empty{display:none}
+.bookhit{display:inline-flex;flex-direction:column;gap:1px;border:1px solid color-mix(in srgb,var(--accent) 32%,transparent);background:color-mix(in srgb,var(--accent) 7%,transparent);border-radius:9px;padding:5px 11px;line-height:1.25;transition:.15s}
+.bookhit b{font-size:12.5px;font-weight:600;color:var(--fg)}
+.bookhit span{font-size:10.5px;color:var(--muted);font-family:ui-monospace,monospace}
+.bookhit:hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 16%,transparent)}
+.bookhint{font-size:12.5px;color:var(--muted)}
+.bookbar-tip{font-size:12px;color:var(--muted);flex:none}
+@media (max-width:560px){.bookbar-tip{display:none}}

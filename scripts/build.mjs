@@ -35,6 +35,8 @@ const items = db.resources
       code: r.check?.code ?? null,
       lastOk: r.lastOk || null,
       firstSeen: r.firstSeen || null,
+      // 站内搜索模板，{q} 由前端替换成书名。没有就说明该站不支持关键词直达
+      searchUrl: r.search || null,
       // 前端默认只隐藏确认死亡的站；"当前出口不可达"仍需展示（可能是区域封锁）
       visible: r.status !== 'dead',
       search: [r.name, r.desc, ...(r.tags || []), safeHost(r.url)].join(' ').toLowerCase(),

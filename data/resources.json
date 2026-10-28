@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-28T01:00:28.377Z",
+  "updatedAt": "2026-10-28T07:58:46.040Z",
   "categories": [
     {
       "id": "online",
@@ -25,6 +25,18 @@
       "name": "小说资源",
       "icon": "📚",
       "desc": "小说搜索、电子书库、书源聚合"
+    },
+    {
+      "id": "freebook",
+      "name": "免费正版",
+      "icon": "📖",
+      "desc": "官方免费频道：正版授权、零广告干扰的免费书库"
+    },
+    {
+      "id": "shuyuan",
+      "name": "书源工具",
+      "icon": "🔧",
+      "desc": "阅读器与书源订阅，聚合全网书源后可搜付费连载"
     },
     {
       "id": "app",
@@ -67,12 +79,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 615,
+        "ms": 401,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.370Z"
+        "at": "2026-10-28T07:58:46.035Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -99,12 +111,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 126,
+        "ms": 73,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.035Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -131,12 +143,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 252,
+        "ms": 88,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -155,7 +167,7 @@
       "desc": "热播剧更新快，含平台会员剧",
       "scores": {
         "rich": 5,
-        "fast": 3,
+        "fast": 4,
         "clean": 4,
         "stable": 5
       },
@@ -164,16 +176,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 1036,
+        "ms": 612,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 4.3,
+      "rating": 4.5,
       "reach": "cn"
     },
     {
@@ -197,12 +209,12 @@
       "mirrors": [],
       "check": {
         "code": 403,
-        "ms": 586,
+        "ms": 506,
         "ok": false,
         "limited": true,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "lastOk": "2026-10-25",
       "rating": 4,
@@ -231,13 +243,13 @@
       "mirrors": [],
       "check": {
         "code": 0,
-        "ms": 12002,
+        "ms": 15004,
         "ok": false,
         "limited": false,
         "mirror": null,
         "error": "timeout",
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "rating": 3.8,
@@ -265,12 +277,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 260,
+        "ms": 129,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -297,12 +309,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 538,
+        "ms": 519,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -332,12 +344,12 @@
       ],
       "check": {
         "code": 403,
-        "ms": 512,
+        "ms": 526,
         "ok": false,
         "limited": true,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "lastOk": "2026-10-25",
       "rating": 3.3,
@@ -365,12 +377,12 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 227,
+        "ms": 294,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -398,12 +410,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 72,
+        "ms": 233,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -431,12 +443,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 673,
+        "ms": 829,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.371Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -464,12 +476,12 @@
       "mirrors": [],
       "check": {
         "code": 403,
-        "ms": 475,
+        "ms": 480,
         "ok": false,
         "limited": true,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "lastOk": "2026-10-25",
       "rating": 3,
@@ -500,12 +512,12 @@
       ],
       "check": {
         "code": 206,
-        "ms": 627,
+        "ms": 438,
         "ok": true,
         "limited": false,
         "mirror": "https://github.com/fish2018/pansou",
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -533,12 +545,12 @@
       "mirrors": [],
       "check": {
         "code": 502,
-        "ms": 204,
+        "ms": 217,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "rating": 3.5,
@@ -568,12 +580,12 @@
       "mirrors": [],
       "check": {
         "code": 502,
-        "ms": 271,
+        "ms": 360,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "rating": 3.5,
@@ -602,12 +614,12 @@
       "mirrors": [],
       "check": {
         "code": 502,
-        "ms": 447,
+        "ms": 480,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "rating": 3,
@@ -628,7 +640,7 @@
       "desc": "4K 原盘磁力免费下载",
       "scores": {
         "rich": 5,
-        "fast": 3,
+        "fast": 4,
         "clean": 3,
         "stable": 5
       },
@@ -637,16 +649,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1278,
+        "ms": 698,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 4,
+      "rating": 4.3,
       "reach": "cn"
     },
     {
@@ -670,12 +682,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1462,
+        "ms": 1292,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -702,13 +714,13 @@
       "mirrors": [],
       "check": {
         "code": 0,
-        "ms": 745,
+        "ms": 649,
         "ok": false,
         "limited": false,
         "mirror": null,
         "error": "fetch failed",
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "rating": 3.3,
@@ -727,7 +739,7 @@
       "desc": "4K 高清电影 BT 下载",
       "scores": {
         "rich": 4,
-        "fast": 3,
+        "fast": 4,
         "clean": 3,
         "stable": 5
       },
@@ -736,16 +748,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 981,
+        "ms": 643,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.372Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 3.8,
+      "rating": 4,
       "reach": "cn"
     },
     {
@@ -768,12 +780,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 653,
+        "ms": 651,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -791,7 +803,7 @@
       "desc": "无删减、无广告磁力站",
       "scores": {
         "rich": 4,
-        "fast": 4,
+        "fast": 5,
         "clean": 4,
         "stable": 5
       },
@@ -800,16 +812,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 716,
+        "ms": 323,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 4.3,
+      "rating": 4.5,
       "reach": "cn"
     },
     {
@@ -833,12 +845,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1441,
+        "ms": 1368,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -865,12 +877,12 @@
       "mirrors": [],
       "check": {
         "code": 403,
-        "ms": 800,
+        "ms": 810,
         "ok": false,
         "limited": true,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "lastOk": "2026-10-25",
       "rating": 2.5,
@@ -901,12 +913,12 @@
       ],
       "check": {
         "code": 206,
-        "ms": 522,
+        "ms": 426,
         "ok": true,
         "limited": false,
         "mirror": "https://github.com/howie6879/owllook",
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -934,12 +946,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 439,
+        "ms": 687,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -958,29 +970,26 @@
       "desc": "千万册电子书自助上传库，域名轮换频繁",
       "scores": {
         "rich": 5,
-        "fast": 4,
+        "fast": 5,
         "clean": 3,
         "stable": 1
       },
-      "status": "unreachable",
+      "status": "live",
       "firstSeen": "2026-10-25",
       "mirrors": [],
       "check": {
-        "code": 0,
-        "ms": 1143,
-        "ok": false,
+        "code": 307,
+        "ms": 325,
+        "ok": true,
         "limited": false,
         "mirror": null,
-        "error": "fetch failed",
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
-      "rating": 3.3,
-      "diedAt": "2026-10-25",
+      "rating": 3.5,
       "reach": "vpn",
-      "lastOk": "2026-10-25",
-      "unreachableSince": "2026-10-25"
+      "lastOk": "2026-10-28"
     },
     {
       "id": "annas",
@@ -1003,13 +1012,13 @@
       "mirrors": [],
       "check": {
         "code": 0,
-        "ms": 15,
+        "ms": 4,
         "ok": false,
         "limited": false,
         "mirror": null,
         "error": "fetch failed",
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "rating": 3.3,
@@ -1022,15 +1031,16 @@
       "id": "legado",
       "name": "阅读 Legado",
       "url": "https://github.com/gedoor/legado",
-      "category": "novel",
+      "category": "shuyuan",
       "tags": [
-        "书源",
-        "开源"
+        "阅读器",
+        "开源",
+        "书源"
       ],
-      "desc": "开源阅读器，导入书源后全网追更",
+      "desc": "开源阅读器（阅读3.0），导入书源后全网搜书，起点付费书也能看",
       "scores": {
         "rich": 5,
-        "fast": 5,
+        "fast": 4,
         "clean": 5,
         "stable": 5
       },
@@ -1039,16 +1049,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 374,
+        "ms": 433,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 5,
+      "rating": 4.8,
       "reach": "cn"
     },
     {
@@ -1074,12 +1084,12 @@
       ],
       "check": {
         "code": 206,
-        "ms": 391,
+        "ms": 226,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -1109,12 +1119,12 @@
       ],
       "check": {
         "code": 200,
-        "ms": 101,
+        "ms": 105,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.036Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -1141,12 +1151,12 @@
       "mirrors": [],
       "check": {
         "code": 444,
-        "ms": 169,
+        "ms": 164,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "rating": 3,
@@ -1176,12 +1186,12 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 197,
+        "ms": 309,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -1208,12 +1218,12 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 36,
+        "ms": 38,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -1240,12 +1250,12 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 19,
+        "ms": 70,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.373Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -1272,12 +1282,12 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 319,
+        "ms": 65,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.374Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -1295,7 +1305,7 @@
       "desc": "多仓配置，源更换较勤",
       "scores": {
         "rich": 4,
-        "fast": 3,
+        "fast": 2,
         "clean": 3,
         "stable": 5
       },
@@ -1304,16 +1314,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 1465,
+        "ms": 2915,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.374Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 3.8,
+      "rating": 3.5,
       "reach": "cn"
     },
     {
@@ -1327,7 +1337,7 @@
       "desc": "MoonTV 增强版影视聚合播放器，可自建",
       "scores": {
         "rich": 5,
-        "fast": 5,
+        "fast": 4,
         "clean": 5,
         "stable": 5
       },
@@ -1336,16 +1346,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 396,
+        "ms": 401,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.374Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 5,
+      "rating": 4.8,
       "reach": "cn"
     },
     {
@@ -1368,12 +1378,12 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 527,
+        "ms": 446,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.374Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
@@ -1392,7 +1402,7 @@
       "desc": "高性能网盘资源搜索 API 服务，可自架",
       "scores": {
         "rich": 5,
-        "fast": 4,
+        "fast": 5,
         "clean": 5,
         "stable": 5
       },
@@ -1401,16 +1411,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 421,
+        "ms": 20,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.374Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 4.8,
+      "rating": 5,
       "reach": "cn"
     },
     {
@@ -1424,7 +1434,7 @@
       "desc": "夸克网盘自动签到、转存、整理",
       "scores": {
         "rich": 4,
-        "fast": 4,
+        "fast": 5,
         "clean": 5,
         "stable": 5
       },
@@ -1433,16 +1443,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 408,
+        "ms": 381,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.374Z"
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
-      "rating": 4.5,
+      "rating": 4.8,
       "reach": "cn"
     },
     {
@@ -1456,7 +1466,7 @@
       "desc": "网盘资源搜索与转存工具",
       "scores": {
         "rich": 4,
-        "fast": 4,
+        "fast": 5,
         "clean": 5,
         "stable": 5
       },
@@ -1465,16 +1475,946 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 409,
+        "ms": 371,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-10-28T01:00:28.374Z"
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.8,
+      "reach": "cn"
+    },
+    {
+      "id": "81zw",
+      "name": "八一中文网",
+      "url": "https://www.81zw.cc",
+      "category": "novel",
+      "tags": [
+        "起点",
+        "番茄",
+        "全本",
+        "无弹窗"
+      ],
+      "desc": "起点/番茄付费书基本都有，更新快，实测可搜到《大梦主》全本目录",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 366,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.8,
+      "reach": "cn",
+      "search": "https://www.81zw.cc/search.php?q={q}"
+    },
+    {
+      "id": "biquge520",
+      "name": "笔趣阁小说网",
+      "url": "https://www.biquge520.net",
+      "category": "novel",
+      "tags": [
+        "起点",
+        "全本",
+        "无弹窗"
+      ],
+      "desc": "笔趣阁镜像站，起点独家书收录完整，章节与正版同步更新",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 178,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
       },
       "failStreak": 0,
       "lastOk": "2026-10-28",
       "rating": 4.5,
+      "reach": "cn",
+      "search": "https://www.biquge520.net/search.php?q={q}"
+    },
+    {
+      "id": "quanben",
+      "name": "全本小说网",
+      "url": "https://quanben.io",
+      "category": "novel",
+      "tags": [
+        "全本",
+        "完结",
+        "起点"
+      ],
+      "desc": "主打完本小说，起点完结书收录全，适合一口气追完",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 237,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 5,
+      "reach": "cn",
+      "search": "https://quanben.io/index.php?c=book&a=search&keywords={q}"
+    },
+    {
+      "id": "dxsxs",
+      "name": "大学生小说网",
+      "url": "https://www.dxsxs.net",
+      "category": "novel",
+      "tags": [
+        "起点",
+        "无弹窗",
+        "全本"
+      ],
+      "desc": "老牌笔趣阁系站点，起点书覆盖率高，页面干净",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 766,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn",
+      "search": "https://www.dxsxs.net/search.php?q={q}"
+    },
+    {
+      "id": "biquge5",
+      "name": "笔趣阁",
+      "url": "https://www.biquge5.com",
+      "category": "novel",
+      "tags": [
+        "起点",
+        "备用",
+        "无弹窗"
+      ],
+      "desc": "笔趣阁主站之一，作为 81zw 的备用源，两者互为容灾",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 128,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn",
+      "search": "https://www.biquge5.com/search.php?q={q}"
+    },
+    {
+      "id": "bqgxs",
+      "name": "笔趣阁小说网",
+      "url": "https://www.bqgxs.com",
+      "category": "novel",
+      "tags": [
+        "起点",
+        "备用"
+      ],
+      "desc": "笔趣阁系备用站，书库与 biquge520 高度重合",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 4,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 192,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4,
+      "reach": "cn",
+      "search": "https://www.bqgxs.com/search.php?q={q}"
+    },
+    {
+      "id": "kanunu8",
+      "name": "努努书坊",
+      "url": "https://www.kanunu8.com",
+      "category": "novel",
+      "tags": [
+        "完本",
+        "TXT",
+        "经典"
+      ],
+      "desc": "老牌完本库，经典完本小说齐全，纯静态页面加载极快",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 38,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.8,
+      "reach": "cn"
+    },
+    {
+      "id": "ixdzs8",
+      "name": "爱下电子书",
+      "url": "https://ixdzs8.com",
+      "category": "novel",
+      "tags": [
+        "电子书",
+        "TXT",
+        "下载"
+      ],
+      "desc": "电子书下载站，按作者/分类归档，适合整本收藏",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 540,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4,
+      "reach": "cn"
+    },
+    {
+      "id": "txt99",
+      "name": "久久小说下载",
+      "url": "https://txt99.com",
+      "category": "novel",
+      "tags": [
+        "TXT",
+        "全本",
+        "下载"
+      ],
+      "desc": "TXT 全本下载，按书名/作者检索，资源量在下载站里排前列",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 3,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 142,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn"
+    },
+    {
+      "id": "piaotian",
+      "name": "飘天文学",
+      "url": "https://www.piaotian.com",
+      "category": "novel",
+      "tags": [
+        "老站",
+        "完本",
+        "无弹窗"
+      ],
+      "desc": "十几年的老站，完本资源稳定，界面极简无广告",
+      "scores": {
+        "rich": 4,
+        "fast": 5,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 191,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.5,
+      "reach": "cn"
+    },
+    {
+      "id": "esjzone",
+      "name": "ESJ Zone",
+      "url": "https://www.esjzone.cc",
+      "category": "novel",
+      "tags": [
+        "轻小说",
+        "日轻",
+        "繁中"
+      ],
+      "desc": "日系轻小说与翻译作品社区，中文轻小说资源最全",
+      "scores": {
+        "rich": 5,
+        "fast": 2,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 2289,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 3.8,
+      "reach": "cn"
+    },
+    {
+      "id": "fanqie",
+      "name": "番茄小说",
+      "url": "https://fanqienovel.com",
+      "category": "freebook",
+      "tags": [
+        "免费",
+        "正版",
+        "字节"
+      ],
+      "desc": "字节旗下免费正版，全场免费无付费章节，量大更新快",
+      "scores": {
+        "rich": 5,
+        "fast": 3,
+        "clean": 4,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1142,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn",
+      "search": "https://fanqienovel.com/search/{q}"
+    },
+    {
+      "id": "qimao",
+      "name": "七猫免费小说",
+      "url": "https://www.qimao.com",
+      "category": "freebook",
+      "tags": [
+        "免费",
+        "正版",
+        "全本"
+      ],
+      "desc": "全场免费的正版站，主打完本精品，适合通勤刷",
+      "scores": {
+        "rich": 5,
+        "fast": 3,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1489,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4,
+      "reach": "cn"
+    },
+    {
+      "id": "tadu",
+      "name": "塔读文学",
+      "url": "https://www.tadu.com",
+      "category": "freebook",
+      "tags": [
+        "免费",
+        "正版",
+        "原创"
+      ],
+      "desc": "免费原创文学站，签约作者多，女频与都市向突出",
+      "scores": {
+        "rich": 4,
+        "fast": 3,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1317,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 3.8,
+      "reach": "cn"
+    },
+    {
+      "id": "ciweimao",
+      "name": "刺猬猫",
+      "url": "https://www.ciweimao.com",
+      "category": "freebook",
+      "tags": [
+        "二次元",
+        "同人",
+        "轻小说"
+      ],
+      "desc": "二次元同人与轻小说主场，大量免费连载，社区氛围浓",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 704,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn"
+    },
+    {
+      "id": "sfacg",
+      "name": "SF轻小说",
+      "url": "https://book.sfacg.com",
+      "category": "freebook",
+      "tags": [
+        "轻小说",
+        "原创",
+        "二次元"
+      ],
+      "desc": "国内最大原创轻小说平台，免费章节比例高",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 727,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.037Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4,
+      "reach": "cn"
+    },
+    {
+      "id": "weread",
+      "name": "微信读书",
+      "url": "https://weread.qq.com",
+      "category": "freebook",
+      "tags": [
+        "正版",
+        "无限卡",
+        "起点"
+      ],
+      "desc": "阅文正版书库，无限卡可免费读大量起点书，含《大梦主》",
+      "scores": {
+        "rich": 5,
+        "fast": 3,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1070,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.5,
+      "reach": "cn",
+      "search": "https://weread.qq.com/web/search/books?keyword={q}"
+    },
+    {
+      "id": "qqread",
+      "name": "QQ阅读",
+      "url": "https://book.qq.com",
+      "category": "freebook",
+      "tags": [
+        "正版",
+        "阅文",
+        "起点"
+      ],
+      "desc": "阅文官方客户端网页版，起点书最全，常有免费/限免活动",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 4,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 731,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.5,
+      "reach": "cn",
+      "search": "https://book.qq.com/so/{q}"
+    },
+    {
+      "id": "qidian",
+      "name": "起点中文网",
+      "url": "https://www.qidian.com",
+      "category": "freebook",
+      "tags": [
+        "正版",
+        "付费",
+        "源头"
+      ],
+      "desc": "网文源头，付费章节最全；免费频道可白嫖部分老书",
+      "scores": {
+        "rich": 5,
+        "fast": 3,
+        "clean": 4,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 202,
+        "ms": 1072,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn",
+      "search": "https://www.qidian.com/so/{q}.html"
+    },
+    {
+      "id": "douban",
+      "name": "豆瓣读书",
+      "url": "https://book.douban.com",
+      "category": "freebook",
+      "tags": [
+        "书评",
+        "评分",
+        "选书"
+      ],
+      "desc": "查评分和书评再决定追不追，避免踩雷烂尾书",
+      "scores": {
+        "rich": 4,
+        "fast": 3,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 1164,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn",
+      "search": "https://search.douban.com/book/subject_search?search_text={q}"
+    },
+    {
+      "id": "jjwxc",
+      "name": "晋江文学城",
+      "url": "https://www.jjwxc.net",
+      "category": "freebook",
+      "tags": [
+        "女频",
+        "原创",
+        "正版"
+      ],
+      "desc": "女频原创大本营，免费章节多，耽美/言情向首选",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 64,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.8,
+      "reach": "cn",
+      "search": "https://www.jjwxc.net/search.php?kw={q}"
+    },
+    {
+      "id": "so-novel",
+      "name": "so-novel",
+      "url": "https://github.com/freeok/so-novel",
+      "category": "shuyuan",
+      "tags": [
+        "下载器",
+        "命令行",
+        "开源"
+      ],
+      "desc": "命令行批量下载小说，内置多书源，一条命令把整本存成 TXT/EPUB",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 5,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 431,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.5,
+      "reach": "cn"
+    },
+    {
+      "id": "novel-dl",
+      "name": "novel-downloader",
+      "url": "https://github.com/404-novel-project/novel-downloader",
+      "category": "shuyuan",
+      "tags": [
+        "下载器",
+        "开源",
+        "全本"
+      ],
+      "desc": "全本小说下载器，支持多站合并去重，导出 EPUB 带目录",
+      "scores": {
+        "rich": 5,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 615,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.3,
+      "reach": "cn"
+    },
+    {
+      "id": "xiu2",
+      "name": "XIU2 书源",
+      "url": "https://github.com/XIU2/Yuedu",
+      "category": "shuyuan",
+      "tags": [
+        "书源",
+        "订阅",
+        "精选"
+      ],
+      "desc": "长期维护的精校书源合集，导入阅读后可直接搜起点付费书",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 5,
+        "stable": 5
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 392,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 5,
+      "reach": "cn"
+    },
+    {
+      "id": "shidahuilang",
+      "name": "shidahuilang 书源",
+      "url": "https://github.com/shidahuilang/shuyuan",
+      "category": "shuyuan",
+      "tags": [
+        "书源",
+        "订阅",
+        "量大"
+      ],
+      "desc": "书源数量最多的仓库之一，覆盖起点/番茄/纵横，更新频繁",
+      "scores": {
+        "rich": 5,
+        "fast": 5,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 254,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4.5,
+      "reach": "cn"
+    },
+    {
+      "id": "aoaostar",
+      "name": "aoaostar 书源",
+      "url": "https://github.com/aoaostar/legado",
+      "category": "shuyuan",
+      "tags": [
+        "书源",
+        "订阅",
+        "备用"
+      ],
+      "desc": "老牌书源仓库，稳定性好，适合作为 XIU2 的补充源",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 4,
+        "stable": 4
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 206,
+        "ms": 469,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 4,
+      "reach": "cn"
+    },
+    {
+      "id": "yckceo",
+      "name": "阅读书源站",
+      "url": "https://www.yckceo.com/yuedu/shuyuan/index.html",
+      "category": "shuyuan",
+      "tags": [
+        "书源",
+        "在线导入",
+        "索引"
+      ],
+      "desc": "书源在线索引站，一键导入阅读 App，无需手动复制链接",
+      "scores": {
+        "rich": 4,
+        "fast": 4,
+        "clean": 4,
+        "stable": 3
+      },
+      "status": "live",
+      "firstSeen": "2026-10-28",
+      "mirrors": [],
+      "check": {
+        "code": 200,
+        "ms": 617,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-10-28T07:58:46.038Z"
+      },
+      "failStreak": 0,
+      "lastOk": "2026-10-28",
+      "rating": 3.8,
       "reach": "cn"
     }
   ]

@@ -3,6 +3,8 @@
 /?cat=panso
 /?cat=magnet
 /?cat=novel
+/?cat=freebook
+/?cat=shuyuan
 /?cat=app
 /?cat=tvbox
 /?cat=oss

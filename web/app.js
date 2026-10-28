@@ -1,6 +1,9 @@
 /* 纯原生 JS，无构建、无框架。数据来自同目录 data.json（由 scripts/build.mjs 生成） */
 const $ = (s) => document.querySelector(s);
-const state = { cat: 'all', q: '', sort: 'rank', showAll: false, data: null };
+const state = { cat: 'all', q: '', book: '', sort: 'rank', showAll: false, data: null };
+
+/* 出现「书名直达」搜索条的分类 */
+const BOOK_CATS = new Set(['novel', 'freebook', 'shuyuan']);
 
 const STATUS = {
   live: ['可用', 'b-live'],
@@ -17,8 +20,10 @@ async function init() {
   const url = new URL(location.href);
   state.cat = url.searchParams.get('cat') || 'all';
   state.q = url.searchParams.get('q') || '';
+  state.book = url.searchParams.get('book') || '';
   state.showAll = url.searchParams.get('all') === '1';
   $('#q').value = state.q;
+  $('#book').value = state.book;
   $('#showAll').checked = state.showAll;
 
   bindUi();
@@ -50,6 +55,18 @@ function bindUi() {
     if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus(); }
     if (e.key === 'Escape' && document.activeElement === $('#q')) { $('#q').value = ''; state.q = ''; renderAll(); }
   });
+
+  // 书名直达：输入即渲染各站搜索链接，回车打开第一个
+  let bt;
+  $('#book').addEventListener('input', (e) => {
+    clearTimeout(bt);
+    bt = setTimeout(() => { state.book = e.target.value.trim(); renderBookHits(); syncUrl(); }, 160);
+  });
+  $('#book').addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    const first = $('#bookhits a');
+    if (first) window.open(first.href, '_blank', 'noopener');
+  });
 }
 
 function applyTheme(t) {
@@ -60,6 +77,7 @@ function syncUrl() {
   const u = new URL(location.href);
   state.cat === 'all' ? u.searchParams.delete('cat') : u.searchParams.set('cat', state.cat);
   state.q ? u.searchParams.set('q', state.q) : u.searchParams.delete('q');
+  state.book ? u.searchParams.set('book', state.book) : u.searchParams.delete('book');
   state.showAll ? u.searchParams.set('all', '1') : u.searchParams.delete('all');
   history.replaceState(null, '', u);
 }
@@ -67,7 +85,35 @@ function syncUrl() {
 function renderAll() {
   renderStats();
   renderTabs();
+  renderBookBar();
   renderList();
+}
+
+/* 「书名直达」只在书相关分类下出现；不在这些分类时隐藏，避免干扰影视用户 */
+function renderBookBar() {
+  const on = BOOK_CATS.has(state.cat) || state.book;
+  $('#bookbar').hidden = !on;
+  if (on) renderBookHits();
+}
+
+function renderBookHits() {
+  const box = $('#bookhits');
+  const book = state.book;
+  if (!book) {
+    box.innerHTML = '<span class="bookhint">输入书名后，下面会出现各站的搜索直达链接，点一下就能看到有没有这本书。</span>';
+    return;
+  }
+  const q = encodeURIComponent(book);
+  const sites = state.data.items
+    .filter((i) => i.searchUrl && i.visible && i.status !== 'dead')
+    .sort((a, b) => b.rating - a.rating);
+  const links = sites.map(
+    (i) => `<a class="bookhit" href="${esc(i.searchUrl.replace('{q}', q))}" target="_blank" rel="noopener noreferrer nofollow">
+      <b>${esc(i.name)}</b><span>${esc(i.host)}</span></a>`,
+  );
+  box.innerHTML = links.length
+    ? links.join('')
+    : '<span class="bookhint">当前分类没有支持关键词直达的站点，切到「小说资源」或「免费正版」再试。</span>';
 }
 
 function renderStats() {
@@ -104,7 +150,6 @@ function renderTabs() {
     }),
   );
 }
-
 function renderList() {
   const list = filterItems();
   $('#count').textContent = `${list.length} 个结果`;

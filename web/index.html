@@ -29,6 +29,14 @@
 <section class="wrap hero">
   <div class="stats" id="stats"></div>
   <div class="tabs" id="tabs"></div>
+  <div class="bookbar" id="bookbar" hidden>
+    <div class="bookbar-row">
+      <span class="bookbar-label">📖 书名直达</span>
+      <input id="book" type="search" placeholder="输入书名，回车直达，例如：大梦主 / 诡秘之主 / 宿命之环" autocomplete="off">
+      <span class="bookbar-tip">点任意站点即搜这本书</span>
+    </div>
+    <div class="bookhits" id="bookhits"></div>
+  </div>
   <div class="filters">
     <label class="chk"><input type="checkbox" id="showAll"> 显示受限 / 待观察</label>
     <select id="sort">
