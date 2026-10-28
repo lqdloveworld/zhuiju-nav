@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 每日自动更新：本机（国内出口）作为权威检测源
-# 由 crontab 调用：0 9 * * * /root/test/nav/scripts/daily.sh
+# 由 crontab 调用：0 9 * * * /usr/bin/flock -n /tmp/nav-daily.lock /path/to/zhuiju-nav/scripts/daily.sh
 set -uo pipefail
 cd "$(dirname "$0")/.." || exit 1
 
