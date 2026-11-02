@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T01:00:22.991Z",
+  "updatedAt": "2026-11-02T01:00:32.179Z",
   "sites": {
     "ppnix": {
       "url": "https://www.ppnix.com/cn/",
@@ -135,6 +135,14 @@
           "ok": true,
           "limited": false,
           "ms": 488,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 312,
           "code": 200,
           "vantage": "local"
         }
@@ -276,6 +284,14 @@
           "ms": 133,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 129,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -413,6 +429,14 @@
           "ok": true,
           "limited": false,
           "ms": 166,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 193,
           "code": 200,
           "vantage": "local"
         }
@@ -554,6 +578,14 @@
           "ms": 183,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 241,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -691,6 +723,14 @@
           "ok": false,
           "limited": true,
           "ms": 522,
+          "code": 403,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": true,
+          "ms": 653,
           "code": 403,
           "vantage": "local"
         }
@@ -832,6 +872,14 @@
           "ms": 4143,
           "code": 523,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": false,
+          "ms": 6794,
+          "code": 523,
+          "vantage": "local"
         }
       ]
     },
@@ -969,6 +1017,14 @@
           "ok": true,
           "limited": false,
           "ms": 326,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 212,
           "code": 200,
           "vantage": "local"
         }
@@ -1110,6 +1166,14 @@
           "ms": 539,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 764,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -1247,6 +1311,14 @@
           "ok": false,
           "limited": true,
           "ms": 772,
+          "code": 403,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": true,
+          "ms": 725,
           "code": 403,
           "vantage": "local"
         }
@@ -1388,6 +1460,14 @@
           "ms": 270,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 256,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -1525,6 +1605,14 @@
           "ok": true,
           "limited": false,
           "ms": 93,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 157,
           "code": 200,
           "vantage": "local"
         }
@@ -1666,6 +1754,14 @@
           "ms": 242,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 911,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -1803,6 +1899,14 @@
           "ok": false,
           "limited": true,
           "ms": 453,
+          "code": 403,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": true,
+          "ms": 436,
           "code": 403,
           "vantage": "local"
         }
@@ -1944,6 +2048,14 @@
           "ms": 751,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 384,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -2081,6 +2193,14 @@
           "ok": false,
           "limited": false,
           "ms": 285,
+          "code": 502,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": false,
+          "ms": 213,
           "code": 502,
           "vantage": "local"
         }
@@ -2222,6 +2342,14 @@
           "ms": 294,
           "code": 502,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": false,
+          "ms": 290,
+          "code": 502,
+          "vantage": "local"
         }
       ]
     },
@@ -2359,6 +2487,14 @@
           "ok": false,
           "limited": false,
           "ms": 461,
+          "code": 502,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": false,
+          "ms": 431,
           "code": 502,
           "vantage": "local"
         }
@@ -2500,6 +2636,14 @@
           "ms": 797,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 957,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -2637,6 +2781,14 @@
           "ok": true,
           "limited": false,
           "ms": 1737,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1403,
           "code": 200,
           "vantage": "local"
         }
@@ -2778,6 +2930,14 @@
           "ms": 676,
           "code": 0,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": false,
+          "ms": 387,
+          "code": 0,
+          "vantage": "local"
         }
       ]
     },
@@ -2915,6 +3075,14 @@
           "ok": true,
           "limited": false,
           "ms": 955,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 653,
           "code": 200,
           "vantage": "local"
         }
@@ -3056,6 +3224,14 @@
           "ms": 639,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 634,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -3193,6 +3369,14 @@
           "ok": true,
           "limited": false,
           "ms": 181,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 358,
           "code": 200,
           "vantage": "local"
         }
@@ -3334,6 +3518,14 @@
           "ms": 1437,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1463,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -3471,6 +3663,14 @@
           "ok": false,
           "limited": true,
           "ms": 811,
+          "code": 403,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": true,
+          "ms": 784,
           "code": 403,
           "vantage": "local"
         }
@@ -3612,6 +3812,14 @@
           "ms": 457,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 364,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -3749,6 +3957,14 @@
           "ok": true,
           "limited": false,
           "ms": 438,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 451,
           "code": 200,
           "vantage": "local"
         }
@@ -3890,6 +4106,14 @@
           "ms": 217,
           "code": 307,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 177,
+          "code": 307,
+          "vantage": "local"
         }
       ]
     },
@@ -4027,6 +4251,14 @@
           "ok": false,
           "limited": false,
           "ms": 7,
+          "code": 0,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": false,
+          "ms": 10,
           "code": 0,
           "vantage": "local"
         }
@@ -4168,6 +4400,14 @@
           "ms": 463,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 322,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -4305,6 +4545,14 @@
           "ok": true,
           "limited": false,
           "ms": 487,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 329,
           "code": 206,
           "vantage": "local"
         }
@@ -4446,6 +4694,14 @@
           "ms": 65,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 98,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -4583,6 +4839,14 @@
           "ok": false,
           "limited": false,
           "ms": 168,
+          "code": 444,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": false,
+          "limited": false,
+          "ms": 159,
           "code": 444,
           "vantage": "local"
         }
@@ -4724,6 +4988,14 @@
           "ms": 115,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 120,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -4861,6 +5133,14 @@
           "ok": true,
           "limited": false,
           "ms": 39,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 14,
           "code": 206,
           "vantage": "local"
         }
@@ -5002,6 +5282,14 @@
           "ms": 60,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 75,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -5139,6 +5427,14 @@
           "ok": true,
           "limited": false,
           "ms": 154,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 152,
           "code": 206,
           "vantage": "local"
         }
@@ -5280,6 +5576,14 @@
           "ms": 2148,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 2242,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -5417,6 +5721,14 @@
           "ok": true,
           "limited": false,
           "ms": 439,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 430,
           "code": 206,
           "vantage": "local"
         }
@@ -5558,6 +5870,14 @@
           "ms": 549,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 518,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -5695,6 +6015,14 @@
           "ok": true,
           "limited": false,
           "ms": 455,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 20,
           "code": 206,
           "vantage": "local"
         }
@@ -5836,6 +6164,14 @@
           "ms": 406,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 390,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -5975,6 +6311,14 @@
           "ms": 433,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 424,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -6027,6 +6371,14 @@
           "ok": true,
           "limited": false,
           "ms": 1089,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 448,
           "code": 200,
           "vantage": "local"
         }
@@ -6083,6 +6435,14 @@
           "ms": 1017,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 125,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6135,6 +6495,14 @@
           "ok": true,
           "limited": false,
           "ms": 238,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 232,
           "code": 200,
           "vantage": "local"
         }
@@ -6191,6 +6559,14 @@
           "ms": 8058,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 444,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6243,6 +6619,14 @@
           "ok": true,
           "limited": false,
           "ms": 126,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 149,
           "code": 200,
           "vantage": "local"
         }
@@ -6299,6 +6683,14 @@
           "ms": 116,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 239,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6351,6 +6743,14 @@
           "ok": true,
           "limited": false,
           "ms": 42,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 40,
           "code": 200,
           "vantage": "local"
         }
@@ -6407,6 +6807,14 @@
           "ms": 528,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1457,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6459,6 +6867,14 @@
           "ok": true,
           "limited": false,
           "ms": 170,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 123,
           "code": 200,
           "vantage": "local"
         }
@@ -6515,6 +6931,14 @@
           "ms": 117,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 147,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6567,6 +6991,14 @@
           "ok": true,
           "limited": false,
           "ms": 738,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 436,
           "code": 200,
           "vantage": "local"
         }
@@ -6623,6 +7055,14 @@
           "ms": 873,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 640,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6675,6 +7115,14 @@
           "ok": true,
           "limited": false,
           "ms": 760,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 798,
           "code": 200,
           "vantage": "local"
         }
@@ -6731,6 +7179,14 @@
           "ms": 868,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 887,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6783,6 +7239,14 @@
           "ok": true,
           "limited": false,
           "ms": 677,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 689,
           "code": 200,
           "vantage": "local"
         }
@@ -6839,6 +7303,14 @@
           "ms": 704,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 716,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6891,6 +7363,14 @@
           "ok": true,
           "limited": false,
           "ms": 980,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1093,
           "code": 200,
           "vantage": "local"
         }
@@ -6947,6 +7427,14 @@
           "ms": 762,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 750,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6999,6 +7487,14 @@
           "ok": true,
           "limited": false,
           "ms": 541,
+          "code": 202,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 399,
           "code": 202,
           "vantage": "local"
         }
@@ -7055,6 +7551,14 @@
           "ms": 1106,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1121,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -7107,6 +7611,14 @@
           "ok": true,
           "limited": false,
           "ms": 46,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 77,
           "code": 206,
           "vantage": "local"
         }
@@ -7163,6 +7675,14 @@
           "ms": 426,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 427,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -7215,6 +7735,14 @@
           "ok": true,
           "limited": false,
           "ms": 480,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 621,
           "code": 206,
           "vantage": "local"
         }
@@ -7271,6 +7799,14 @@
           "ms": 477,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 434,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -7323,6 +7859,14 @@
           "ok": true,
           "limited": false,
           "ms": 193,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 157,
           "code": 206,
           "vantage": "local"
         }
@@ -7379,6 +7923,14 @@
           "ms": 310,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 304,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -7431,6 +7983,252 @@
           "ok": true,
           "limited": false,
           "ms": 864,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 777,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "ddmf-net": {
+      "url": "https://ddmf.net",
+      "host": "ddmf.net",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 3788,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "sorani-net": {
+      "url": "https://www.sorani.net",
+      "host": "sorani.net",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 658,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "kuhh4jo-com": {
+      "url": "https://kuhh4jo.com",
+      "host": "kuhh4jo.com",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1947,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "netflixgc-com": {
+      "url": "https://www.netflixgc.com",
+      "host": "netflixgc.com",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 238,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "nfyingshi-com": {
+      "url": "https://www.nfyingshi.com",
+      "host": "nfyingshi.com",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 357,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "ymck-pro": {
+      "url": "https://www.ymck.pro",
+      "host": "ymck.pro",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 799,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "assrt-net": {
+      "url": "https://assrt.net",
+      "host": "assrt.net",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 741,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "subhd-tv": {
+      "url": "https://subhd.tv",
+      "host": "subhd.tv",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 50,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "xn-sss604efuw-net": {
+      "url": "http://www.饭太硬.net/tv",
+      "host": "xn--sss604efuw.net",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1298,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "xn-z7x900a-net": {
+      "url": "http://肥猫.net/",
+      "host": "xn--z7x900a.net",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 404,
+          "code": 206,
+          "vantage": "local"
+        }
+      ]
+    },
+    "szyyds-cn": {
+      "url": "https://szyyds.cn/tv/x.json",
+      "host": "szyyds.cn",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 779,
+          "code": 206,
+          "vantage": "local"
+        }
+      ]
+    },
+    "cnb-cool": {
+      "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
+      "host": "cnb.cool",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 536,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "new-xn-4kq62z5rby2qupq9ub-top": {
+      "url": "http://new.王二小放牛娃.top",
+      "host": "new.xn--4kq62z5rby2qupq9ub.top",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 803,
+          "code": 206,
+          "vantage": "local"
+        }
+      ]
+    },
+    "itv666-cc": {
+      "url": "http://itv666.cc/aowu/config.webp",
+      "host": "itv666.cc",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 2218,
+          "code": 206,
+          "vantage": "local"
+        }
+      ]
+    },
+    "6800-kstore-vip": {
+      "url": "https://6800.kstore.vip/fish.json",
+      "host": "6800.kstore.vip",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 1002,
+          "code": 206,
+          "vantage": "local"
+        }
+      ]
+    },
+    "xmbjm-fh4u-org": {
+      "url": "http://xmbjm.fh4u.org/dc.txt",
+      "host": "xmbjm.fh4u.org",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 817,
+          "code": 200,
+          "vantage": "local"
+        }
+      ]
+    },
+    "xhztv-pro": {
+      "url": "https://www.xhztv.pro/",
+      "host": "xhztv.pro",
+      "runs": [
+        {
+          "d": "2026-11-02",
+          "ok": true,
+          "limited": false,
+          "ms": 603,
           "code": 200,
           "vantage": "local"
         }
