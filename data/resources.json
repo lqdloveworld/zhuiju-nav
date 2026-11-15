@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T01:01:00.292Z",
+  "updatedAt": "2026-11-15T01:00:50.108Z",
   "categories": [
     {
       "id": "online",
@@ -79,15 +79,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 419,
+        "ms": 405,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.101Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -111,15 +111,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 135,
+        "ms": 85,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -143,15 +143,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 273,
+        "ms": 151,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn"
     },
@@ -176,15 +176,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 275,
+        "ms": 169,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -209,12 +209,12 @@
       "mirrors": [],
       "check": {
         "code": 403,
-        "ms": 580,
+        "ms": 538,
         "ok": false,
         "limited": true,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "lastOk": "2026-10-25",
       "rating": 4,
@@ -242,14 +242,13 @@
       "firstSeen": "2026-10-25",
       "mirrors": [],
       "check": {
-        "code": 0,
-        "ms": 12002,
+        "code": 523,
+        "ms": 10523,
         "ok": false,
         "limited": false,
         "mirror": null,
-        "error": "timeout",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
       "rating": 3.8,
@@ -277,15 +276,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 147,
+        "ms": 141,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn"
     },
@@ -300,7 +299,7 @@
       "desc": "综合影视资源多，无广告",
       "scores": {
         "rich": 4,
-        "fast": 3,
+        "fast": 4,
         "clean": 4,
         "stable": 5
       },
@@ -309,16 +308,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 906,
+        "ms": 429,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4,
+      "lastOk": "2026-11-15",
+      "rating": 4.3,
       "reach": "cn"
     },
     {
@@ -344,12 +343,12 @@
       ],
       "check": {
         "code": 403,
-        "ms": 544,
+        "ms": 603,
         "ok": false,
         "limited": true,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "lastOk": "2026-10-25",
       "rating": 3.3,
@@ -377,13 +376,13 @@
       "mirrors": [],
       "check": {
         "code": 0,
-        "ms": 10223,
+        "ms": 10442,
         "ok": false,
         "limited": false,
         "mirror": null,
         "error": "fetch failed",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
       "lastOk": "2026-11-13",
@@ -412,15 +411,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 94,
+        "ms": 62,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "vpn"
     },
@@ -445,15 +444,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 652,
+        "ms": 629,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.3,
       "reach": "vpn"
     },
@@ -469,26 +468,25 @@
       "desc": "高清秒播不卡顿，有广告",
       "scores": {
         "rich": 4,
-        "fast": 5,
+        "fast": 3,
         "clean": 2,
         "stable": 1
       },
-      "status": "limited",
+      "status": "live",
       "firstSeen": "2026-10-25",
       "mirrors": [],
       "check": {
-        "code": 403,
-        "ms": 459,
-        "ok": false,
-        "limited": true,
+        "code": 200,
+        "ms": 943,
+        "ok": true,
+        "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
-      "lastOk": "2026-10-25",
-      "rating": 3,
+      "lastOk": "2026-11-15",
+      "rating": 2.5,
       "reach": "cn",
-      "unreachableSince": "2026-10-25",
       "failStreak": 0
     },
     {
@@ -514,15 +512,15 @@
       ],
       "check": {
         "code": 206,
-        "ms": 478,
+        "ms": 426,
         "ok": true,
         "limited": false,
         "mirror": "https://github.com/fish2018/pansou",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -547,12 +545,12 @@
       "mirrors": [],
       "check": {
         "code": 502,
-        "ms": 212,
+        "ms": 206,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
       "rating": 3.5,
@@ -582,12 +580,12 @@
       "mirrors": [],
       "check": {
         "code": 502,
-        "ms": 204,
+        "ms": 286,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
       "rating": 3.5,
@@ -616,12 +614,12 @@
       "mirrors": [],
       "check": {
         "code": 502,
-        "ms": 444,
+        "ms": 483,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.286Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
       "rating": 3,
@@ -651,15 +649,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 704,
+        "ms": 868,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.3,
       "reach": "cn"
     },
@@ -684,15 +682,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1415,
+        "ms": 1308,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4,
       "reach": "cn"
     },
@@ -716,13 +714,13 @@
       "mirrors": [],
       "check": {
         "code": 0,
-        "ms": 669,
+        "ms": 661,
         "ok": false,
         "limited": false,
         "mirror": null,
         "error": "fetch failed",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
       "rating": 3.3,
@@ -750,15 +748,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 677,
+        "ms": 564,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4,
       "reach": "cn"
     },
@@ -782,15 +780,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 644,
+        "ms": 627,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn"
     },
@@ -814,15 +812,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 203,
+        "ms": 337,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn"
     },
@@ -847,15 +845,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1873,
+        "ms": 1412,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 3.8,
       "reach": "cn"
     },
@@ -879,12 +877,12 @@
       "mirrors": [],
       "check": {
         "code": 403,
-        "ms": 1171,
+        "ms": 797,
         "ok": false,
         "limited": true,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "lastOk": "2026-10-25",
       "rating": 2.5,
@@ -915,15 +913,15 @@
       ],
       "check": {
         "code": 206,
-        "ms": 764,
+        "ms": 401,
         "ok": true,
         "limited": false,
         "mirror": "https://github.com/howie6879/owllook",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn"
     },
@@ -939,7 +937,7 @@
       "desc": "聚合网盘电子书资源的搜索入口",
       "scores": {
         "rich": 5,
-        "fast": 4,
+        "fast": 5,
         "clean": 5,
         "stable": 5
       },
@@ -948,16 +946,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 411,
+        "ms": 396,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.102Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.8,
+      "lastOk": "2026-11-15",
+      "rating": 5,
       "reach": "cn"
     },
     {
@@ -972,7 +970,7 @@
       "desc": "千万册电子书自助上传库，域名轮换频繁",
       "scores": {
         "rich": 5,
-        "fast": 2,
+        "fast": 5,
         "clean": 3,
         "stable": 3
       },
@@ -981,17 +979,17 @@
       "mirrors": [],
       "check": {
         "code": 307,
-        "ms": 2138,
+        "ms": 179,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "rating": 3.3,
+      "rating": 4,
       "reach": "vpn",
-      "lastOk": "2026-11-14"
+      "lastOk": "2026-11-15"
     },
     {
       "id": "annas",
@@ -1014,13 +1012,13 @@
       "mirrors": [],
       "check": {
         "code": 0,
-        "ms": 1627,
+        "ms": 28,
         "ok": false,
         "limited": false,
         "mirror": null,
         "error": "fetch failed",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
       "rating": 3.3,
@@ -1042,7 +1040,7 @@
       "desc": "开源阅读器（阅读3.0），导入书源后全网搜书，起点付费书也能看",
       "scores": {
         "rich": 5,
-        "fast": 4,
+        "fast": 5,
         "clean": 5,
         "stable": 5
       },
@@ -1051,16 +1049,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 468,
+        "ms": 346,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.8,
+      "lastOk": "2026-11-15",
+      "rating": 5,
       "reach": "cn"
     },
     {
@@ -1086,15 +1084,15 @@
       ],
       "check": {
         "code": 206,
-        "ms": 395,
+        "ms": 340,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1126,10 +1124,10 @@
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1153,12 +1151,12 @@
       "mirrors": [],
       "check": {
         "code": 444,
-        "ms": 168,
+        "ms": 162,
         "ok": false,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
       "rating": 3,
@@ -1179,7 +1177,7 @@
       "desc": "TVBox 二开空壳，自带视频源",
       "scores": {
         "rich": 5,
-        "fast": 2,
+        "fast": 5,
         "clean": 4,
         "stable": 5
       },
@@ -1188,16 +1186,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 2378,
+        "ms": 123,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4,
+      "lastOk": "2026-11-15",
+      "rating": 4.8,
       "reach": "cn"
     },
     {
@@ -1220,15 +1218,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 177,
+        "ms": 14,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1252,15 +1250,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 107,
+        "ms": 72,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1284,15 +1282,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 173,
+        "ms": 330,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn"
     },
@@ -1307,7 +1305,7 @@
       "desc": "多仓配置，源更换较勤",
       "scores": {
         "rich": 4,
-        "fast": 2,
+        "fast": 3,
         "clean": 3,
         "stable": 5
       },
@@ -1316,16 +1314,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 2045,
+        "ms": 1583,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 3.5,
+      "lastOk": "2026-11-15",
+      "rating": 3.8,
       "reach": "cn"
     },
     {
@@ -1348,15 +1346,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 520,
+        "ms": 446,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1380,15 +1378,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 418,
+        "ms": 543,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1413,15 +1411,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 69,
+        "ms": 21,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 5,
       "reach": "cn"
     },
@@ -1436,7 +1434,7 @@
       "desc": "夸克网盘自动签到、转存、整理",
       "scores": {
         "rich": 4,
-        "fast": 4,
+        "fast": 5,
         "clean": 5,
         "stable": 5
       },
@@ -1445,16 +1443,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 501,
+        "ms": 369,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.5,
+      "lastOk": "2026-11-15",
+      "rating": 4.8,
       "reach": "cn"
     },
     {
@@ -1468,7 +1466,7 @@
       "desc": "网盘资源搜索与转存工具",
       "scores": {
         "rich": 4,
-        "fast": 4,
+        "fast": 5,
         "clean": 5,
         "stable": 5
       },
@@ -1477,16 +1475,16 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 458,
+        "ms": 342,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.5,
+      "lastOk": "2026-11-15",
+      "rating": 4.8,
       "reach": "cn"
     },
     {
@@ -1507,23 +1505,25 @@
         "clean": 4,
         "stable": 5
       },
-      "status": "live",
+      "status": "unreachable",
       "firstSeen": "2026-10-28",
       "mirrors": [],
       "check": {
-        "code": 200,
-        "ms": 810,
-        "ok": true,
+        "code": 0,
+        "ms": 12001,
+        "ok": false,
         "limited": false,
         "mirror": null,
+        "error": "timeout",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
       "lastOk": "2026-11-14",
       "rating": 4.5,
       "reach": "cn",
-      "search": "https://www.81zw.cc/search.php?q={q}"
+      "search": "https://www.81zw.cc/search.php?q={q}",
+      "unreachableSince": "2026-11-15"
     },
     {
       "id": "biquge520",
@@ -1542,23 +1542,25 @@
         "clean": 4,
         "stable": 5
       },
-      "status": "live",
+      "status": "unreachable",
       "firstSeen": "2026-10-28",
       "mirrors": [],
       "check": {
-        "code": 200,
-        "ms": 463,
-        "ok": true,
+        "code": 0,
+        "ms": 12001,
+        "ok": false,
         "limited": false,
         "mirror": null,
+        "error": "timeout",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
       "lastOk": "2026-11-14",
       "rating": 4.5,
       "reach": "cn",
-      "search": "https://www.biquge520.net/search.php?q={q}"
+      "search": "https://www.biquge520.net/search.php?q={q}",
+      "unreachableSince": "2026-11-15"
     },
     {
       "id": "quanben",
@@ -1587,10 +1589,10 @@
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 5,
       "reach": "cn",
       "search": "https://quanben.io/index.php?c=book&a=search&keywords={q}"
@@ -1608,7 +1610,7 @@
       "desc": "老牌笔趣阁系站点，起点书覆盖率高，页面干净",
       "scores": {
         "rich": 4,
-        "fast": 5,
+        "fast": 4,
         "clean": 5,
         "stable": 5
       },
@@ -1617,16 +1619,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 180,
+        "ms": 497,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.8,
+      "lastOk": "2026-11-15",
+      "rating": 4.5,
       "reach": "cn",
       "search": "https://www.dxsxs.net/search.php?q={q}"
     },
@@ -1643,7 +1645,7 @@
       "desc": "笔趣阁主站之一，作为 81zw 的备用源，两者互为容灾",
       "scores": {
         "rich": 4,
-        "fast": 5,
+        "fast": 3,
         "clean": 4,
         "stable": 5
       },
@@ -1652,16 +1654,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 175,
+        "ms": 998,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.5,
+      "lastOk": "2026-11-15",
+      "rating": 4,
       "reach": "cn",
       "search": "https://www.biquge5.com/search.php?q={q}"
     },
@@ -1677,7 +1679,7 @@
       "desc": "笔趣阁系备用站，书库与 biquge520 高度重合",
       "scores": {
         "rich": 4,
-        "fast": 4,
+        "fast": 3,
         "clean": 4,
         "stable": 5
       },
@@ -1686,16 +1688,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 443,
+        "ms": 1404,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.3,
+      "lastOk": "2026-11-15",
+      "rating": 4,
       "reach": "cn",
       "search": "https://www.bqgxs.com/search.php?q={q}"
     },
@@ -1721,15 +1723,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 44,
+        "ms": 38,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1746,7 +1748,7 @@
       "desc": "电子书下载站，按作者/分类归档，适合整本收藏",
       "scores": {
         "rich": 4,
-        "fast": 3,
+        "fast": 4,
         "clean": 4,
         "stable": 5
       },
@@ -1755,16 +1757,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1152,
+        "ms": 430,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4,
+      "lastOk": "2026-11-15",
+      "rating": 4.3,
       "reach": "cn"
     },
     {
@@ -1780,7 +1782,7 @@
       "desc": "TXT 全本下载，按书名/作者检索，资源量在下载站里排前列",
       "scores": {
         "rich": 5,
-        "fast": 4,
+        "fast": 5,
         "clean": 3,
         "stable": 5
       },
@@ -1789,16 +1791,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 480,
+        "ms": 115,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.3,
+      "lastOk": "2026-11-15",
+      "rating": 4.5,
       "reach": "cn"
     },
     {
@@ -1823,15 +1825,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 122,
+        "ms": 130,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -1848,7 +1850,7 @@
       "desc": "日系轻小说与翻译作品社区，中文轻小说资源最全",
       "scores": {
         "rich": 5,
-        "fast": 3,
+        "fast": 5,
         "clean": 4,
         "stable": 5
       },
@@ -1857,16 +1859,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1117,
+        "ms": 270,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.3,
+      "lastOk": "2026-11-15",
+      "rating": 4.8,
       "reach": "cn"
     },
     {
@@ -1891,15 +1893,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 573,
+        "ms": 640,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn",
       "search": "https://fanqienovel.com/search/{q}"
@@ -1919,23 +1921,23 @@
         "rich": 5,
         "fast": 4,
         "clean": 4,
-        "stable": 4
+        "stable": 5
       },
       "status": "live",
       "firstSeen": "2026-10-28",
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 831,
+        "ms": 706,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.3,
+      "lastOk": "2026-11-15",
+      "rating": 4.5,
       "reach": "cn"
     },
     {
@@ -1951,7 +1953,7 @@
       "desc": "免费原创文学站，签约作者多，女频与都市向突出",
       "scores": {
         "rich": 4,
-        "fast": 2,
+        "fast": 3,
         "clean": 4,
         "stable": 5
       },
@@ -1960,16 +1962,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 3284,
+        "ms": 1649,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 3.8,
+      "lastOk": "2026-11-15",
+      "rating": 4,
       "reach": "cn"
     },
     {
@@ -1985,7 +1987,7 @@
       "desc": "二次元同人与轻小说主场，大量免费连载，社区氛围浓",
       "scores": {
         "rich": 5,
-        "fast": 3,
+        "fast": 4,
         "clean": 4,
         "stable": 5
       },
@@ -1994,16 +1996,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 931,
+        "ms": 755,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 4.3,
+      "lastOk": "2026-11-15",
+      "rating": 4.5,
       "reach": "cn"
     },
     {
@@ -2028,15 +2030,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 750,
+        "ms": 740,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.3,
       "reach": "cn"
     },
@@ -2062,15 +2064,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1004,
+        "ms": 991,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn",
       "search": "https://weread.qq.com/web/search/books?keyword={q}"
@@ -2097,15 +2099,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 793,
+        "ms": 596,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn",
       "search": "https://book.qq.com/so/{q}"
@@ -2132,15 +2134,15 @@
       "mirrors": [],
       "check": {
         "code": 202,
-        "ms": 184,
+        "ms": 197,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.103Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn",
       "search": "https://www.qidian.com/so/{q}.html"
@@ -2167,15 +2169,15 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 1488,
+        "ms": 1185,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.3,
       "reach": "cn",
       "search": "https://search.douban.com/book/subject_search?search_text={q}"
@@ -2202,15 +2204,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 67,
+        "ms": 56,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn",
       "search": "https://www.jjwxc.net/search.php?kw={q}"
@@ -2237,15 +2239,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 438,
+        "ms": 491,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -2271,15 +2273,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 856,
+        "ms": 426,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.287Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.5,
       "reach": "cn"
     },
@@ -2305,15 +2307,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 383,
+        "ms": 365,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 5,
       "reach": "cn"
     },
@@ -2339,15 +2341,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 175,
+        "ms": 179,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.8,
       "reach": "cn"
     },
@@ -2373,15 +2375,15 @@
       "mirrors": [],
       "check": {
         "code": 206,
-        "ms": 401,
+        "ms": 443,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "rating": 4.3,
       "reach": "cn"
     },
@@ -2398,7 +2400,7 @@
       "desc": "书源在线索引站，一键导入阅读 App，无需手动复制链接",
       "scores": {
         "rich": 4,
-        "fast": 1,
+        "fast": 4,
         "clean": 4,
         "stable": 5
       },
@@ -2407,16 +2409,16 @@
       "mirrors": [],
       "check": {
         "code": 200,
-        "ms": 9523,
+        "ms": 627,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       },
       "failStreak": 0,
-      "lastOk": "2026-11-14",
-      "rating": 3.5,
+      "lastOk": "2026-11-15",
+      "rating": 4.3,
       "reach": "cn"
     },
     {
@@ -2429,24 +2431,24 @@
       "mirrors": [],
       "scores": {
         "rich": 3,
-        "fast": 4,
+        "fast": 2,
         "clean": 3,
         "stable": 5
       },
-      "rating": 3.8,
+      "rating": 3.3,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 475,
+        "ms": 2151,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2464,22 +2466,20 @@
         "stable": 5
       },
       "rating": 3.8,
-      "status": "unreachable",
+      "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-13",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
-        "code": 0,
-        "ms": 10505,
-        "ok": false,
+        "code": 200,
+        "ms": 565,
+        "ok": true,
         "limited": false,
         "mirror": null,
-        "error": "fetch failed",
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
-      },
-      "unreachableSince": "2026-11-14"
+        "at": "2026-11-15T01:00:50.104Z"
+      }
     },
     {
       "id": "kuhh4jo-com",
@@ -2491,24 +2491,24 @@
       "mirrors": [],
       "scores": {
         "rich": 3,
-        "fast": 2,
+        "fast": 3,
         "clean": 3,
         "stable": 5
       },
-      "rating": 3.3,
+      "rating": 3.5,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 2126,
+        "ms": 1861,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2528,17 +2528,17 @@
       "rating": 4,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 97,
+        "ms": 48,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2551,24 +2551,24 @@
       "mirrors": [],
       "scores": {
         "rich": 3,
-        "fast": 4,
+        "fast": 5,
         "clean": 3,
         "stable": 5
       },
-      "rating": 3.8,
+      "rating": 4,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 683,
+        "ms": 363,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2588,17 +2588,17 @@
       "rating": 4,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 219,
+        "ms": 92,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2618,17 +2618,17 @@
       "rating": 3.5,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 910,
+        "ms": 1160,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2648,17 +2648,17 @@
       "rating": 4,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 67,
+        "ms": 115,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2671,24 +2671,24 @@
       "mirrors": [],
       "scores": {
         "rich": 3,
-        "fast": 4,
+        "fast": 3,
         "clean": 3,
         "stable": 5
       },
-      "rating": 3.8,
+      "rating": 3.5,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 715,
+        "ms": 1137,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2708,53 +2708,23 @@
       "rating": 3.8,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 405,
+        "ms": 419,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
       "id": "szyyds-cn",
       "name": "小马",
       "url": "https://szyyds.cn/tv/x.json",
-      "category": "tvbox",
-      "tags": [],
-      "desc": "自动发现于 zhuiju",
-      "mirrors": [],
-      "scores": {
-        "rich": 3,
-        "fast": 2,
-        "clean": 3,
-        "stable": 5
-      },
-      "rating": 3.3,
-      "status": "live",
-      "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
-      "failStreak": 0,
-      "source": "zhuiju",
-      "check": {
-        "code": 206,
-        "ms": 2064,
-        "ok": true,
-        "limited": false,
-        "mirror": null,
-        "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
-      }
-    },
-    {
-      "id": "cnb-cool",
-      "name": "潇洒",
-      "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
       "category": "tvbox",
       "tags": [],
       "desc": "自动发现于 zhuiju",
@@ -2768,23 +2738,23 @@
       "rating": 3.5,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
-        "code": 200,
-        "ms": 1086,
+        "code": 206,
+        "ms": 1879,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
-      "id": "new-xn-4kq62z5rby2qupq9ub-top",
-      "name": "王二小",
-      "url": "http://new.王二小放牛娃.top",
+      "id": "cnb-cool",
+      "name": "潇洒",
+      "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
       "category": "tvbox",
       "tags": [],
       "desc": "自动发现于 zhuiju",
@@ -2798,17 +2768,47 @@
       "rating": 3.8,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
-        "code": 206,
-        "ms": 506,
+        "code": 200,
+        "ms": 519,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
+      }
+    },
+    {
+      "id": "new-xn-4kq62z5rby2qupq9ub-top",
+      "name": "王二小",
+      "url": "http://new.王二小放牛娃.top",
+      "category": "tvbox",
+      "tags": [],
+      "desc": "自动发现于 zhuiju",
+      "mirrors": [],
+      "scores": {
+        "rich": 3,
+        "fast": 5,
+        "clean": 3,
+        "stable": 5
+      },
+      "rating": 4,
+      "status": "live",
+      "firstSeen": "2026-10-25",
+      "lastOk": "2026-11-15",
+      "failStreak": 0,
+      "source": "zhuiju",
+      "check": {
+        "code": 206,
+        "ms": 163,
+        "ok": true,
+        "limited": false,
+        "mirror": null,
+        "vantage": "local",
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2821,24 +2821,24 @@
       "mirrors": [],
       "scores": {
         "rich": 3,
-        "fast": 3,
+        "fast": 2,
         "clean": 3,
         "stable": 5
       },
-      "rating": 3.5,
+      "rating": 3.3,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 206,
-        "ms": 1631,
+        "ms": 2077,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2858,17 +2858,17 @@
       "rating": 3.8,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 206,
-        "ms": 492,
+        "ms": 407,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2888,17 +2888,17 @@
       "rating": 3.8,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 524,
+        "ms": 619,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     },
     {
@@ -2918,17 +2918,17 @@
       "rating": 4,
       "status": "live",
       "firstSeen": "2026-10-25",
-      "lastOk": "2026-11-14",
+      "lastOk": "2026-11-15",
       "failStreak": 0,
       "source": "zhuiju",
       "check": {
         "code": 200,
-        "ms": 345,
+        "ms": 248,
         "ok": true,
         "limited": false,
         "mirror": null,
         "vantage": "local",
-        "at": "2026-11-14T01:01:00.288Z"
+        "at": "2026-11-15T01:00:50.104Z"
       }
     }
   ]
