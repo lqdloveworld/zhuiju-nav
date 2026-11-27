@@ -1,17 +1,10 @@
 {
-  "updatedAt": "2026-11-26T01:00:31.870Z",
+  "updatedAt": "2026-11-27T01:00:36.766Z",
   "sites": {
     "ppnix": {
       "url": "https://www.ppnix.com/cn/",
       "host": "ppnix.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 321,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -323,6 +316,14 @@
           "ms": 287,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 494,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -330,13 +331,6 @@
       "url": "https://www.dbku.tv",
       "host": "dbku.tv",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 160,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -648,6 +642,14 @@
           "ms": 107,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 101,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -655,13 +657,6 @@
       "url": "https://www.sotvla.cc/",
       "host": "sotvla.cc",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 310,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -973,6 +968,14 @@
           "ms": 129,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 819,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -980,13 +983,6 @@
       "url": "https://www.tdgo.shop",
       "host": "tdgo.shop",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 1707,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -1298,6 +1294,14 @@
           "ms": 207,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 835,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -1305,13 +1309,6 @@
       "url": "https://www.appmovie.art",
       "host": "appmovie.art",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": true,
-          "ms": 671,
-          "code": 403
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -1623,6 +1620,14 @@
           "ms": 537,
           "code": 403,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": true,
+          "ms": 999,
+          "code": 403,
+          "vantage": "local"
         }
       ]
     },
@@ -1630,13 +1635,6 @@
       "url": "https://www.nivod.vip",
       "host": "nivod.vip",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": false,
-          "ms": 12001,
-          "code": 0
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -1948,6 +1946,14 @@
           "ms": 4659,
           "code": 523,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 12001,
+          "code": 0,
+          "vantage": "local"
         }
       ]
     },
@@ -1955,13 +1961,6 @@
       "url": "https://dyrs.tv",
       "host": "dyrs.tv",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 879,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -2273,6 +2272,14 @@
           "ms": 1732,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 982,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -2280,13 +2287,6 @@
       "url": "https://darkvod.com",
       "host": "darkvod.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 917,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -2598,6 +2598,14 @@
           "ms": 1803,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 593,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -2605,13 +2613,6 @@
       "url": "https://libviobd.com",
       "host": "libviobd.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": true,
-          "ms": 958,
-          "code": 403
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -2923,6 +2924,14 @@
           "ms": 2108,
           "code": 403,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": true,
+          "ms": 1059,
+          "code": 403,
+          "vantage": "local"
         }
       ]
     },
@@ -2930,13 +2939,6 @@
       "url": "https://bubuzhuiju.com",
       "host": "bubuzhuiju.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 816,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -3248,6 +3250,14 @@
           "ms": 10100,
           "code": 0,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 10429,
+          "code": 0,
+          "vantage": "local"
         }
       ]
     },
@@ -3255,13 +3265,6 @@
       "url": "https://iyf.tv",
       "host": "iyf.tv",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": true,
-          "ms": 346,
-          "code": 403
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -3573,6 +3576,14 @@
           "ms": 641,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 78,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -3580,13 +3591,6 @@
       "url": "https://gaze.red/",
       "host": "gaze.red",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": true,
-          "ms": 283,
-          "code": 403
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -3898,6 +3902,14 @@
           "ms": 438,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 596,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -3905,13 +3917,6 @@
       "url": "https://www.czzymovie.com",
       "host": "czzymovie.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": true,
-          "ms": 378,
-          "code": 403
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -4223,6 +4228,14 @@
           "ms": 629,
           "code": 403,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": true,
+          "ms": 428,
+          "code": 403,
+          "vantage": "local"
         }
       ]
     },
@@ -4230,13 +4243,6 @@
       "url": "https://pansou.de",
       "host": "pansou.de",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 820,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -4548,6 +4554,14 @@
           "ms": 461,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 435,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -4555,13 +4569,6 @@
       "url": "https://kkso.net",
       "host": "kkso.net",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 809,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -4873,6 +4880,14 @@
           "ms": 294,
           "code": 502,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 284,
+          "code": 502,
+          "vantage": "local"
         }
       ]
     },
@@ -4880,13 +4895,6 @@
       "url": "https://www.zhuiju.us/",
       "host": "zhuiju.us",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 838,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -5198,6 +5206,14 @@
           "ms": 215,
           "code": 502,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 309,
+          "code": 502,
+          "vantage": "local"
         }
       ]
     },
@@ -5205,13 +5221,6 @@
       "url": "https://www.gugeso.com/",
       "host": "gugeso.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 2561,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -5523,6 +5532,14 @@
           "ms": 473,
           "code": 502,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 474,
+          "code": 502,
+          "vantage": "local"
         }
       ]
     },
@@ -5530,13 +5547,6 @@
       "url": "https://pomo.mom",
       "host": "pomo.mom",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 1194,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -5848,6 +5858,14 @@
           "ms": 844,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 2206,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -5855,13 +5873,6 @@
       "url": "https://www.btsj6.com",
       "host": "btsj6.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 1395,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -6173,6 +6184,14 @@
           "ms": 1443,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1336,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6180,13 +6199,6 @@
       "url": "https://clg56.top",
       "host": "clg56.top",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": false,
-          "ms": 1158,
-          "code": 0
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -6498,6 +6510,14 @@
           "ms": 660,
           "code": 0,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 429,
+          "code": 0,
+          "vantage": "local"
         }
       ]
     },
@@ -6505,13 +6525,6 @@
       "url": "https://www.btbtla.com",
       "host": "btbtla.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 693,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -6823,6 +6836,14 @@
           "ms": 675,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 674,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -6830,13 +6851,6 @@
       "url": "https://www.mjf2020.com",
       "host": "mjf2020.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 1187,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -7148,6 +7162,14 @@
           "ms": 637,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 622,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -7155,13 +7177,6 @@
       "url": "https://www.cilixiong.org",
       "host": "cilixiong.org",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 527,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -7473,6 +7488,14 @@
           "ms": 202,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 205,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -7480,13 +7503,6 @@
       "url": "https://www.dyg22.com",
       "host": "dyg22.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 1455,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -7798,6 +7814,14 @@
           "ms": 1539,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1403,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -7805,13 +7829,6 @@
       "url": "https://hdzu.org",
       "host": "hdzu.org",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": true,
-          "ms": 1352,
-          "code": 403
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -8123,6 +8140,14 @@
           "ms": 762,
           "code": 403,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": true,
+          "ms": 743,
+          "code": 403,
+          "vantage": "local"
         }
       ]
     },
@@ -8130,13 +8155,6 @@
       "url": "https://www.owllook.net",
       "host": "owllook.net",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 527,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -8448,6 +8466,14 @@
           "ms": 466,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 343,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -8455,13 +8481,6 @@
       "url": "https://www.jiumodiary.com",
       "host": "jiumodiary.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 538,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -8773,6 +8792,14 @@
           "ms": 462,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 396,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -8780,13 +8807,6 @@
       "url": "https://z-library.sk",
       "host": "z-library.sk",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": false,
-          "ms": 1792,
-          "code": 0
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -9098,6 +9118,14 @@
           "ms": 207,
           "code": 307,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 177,
+          "code": 307,
+          "vantage": "local"
         }
       ]
     },
@@ -9105,13 +9133,6 @@
       "url": "https://annas-archive.org",
       "host": "annas-archive.org",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": false,
-          "limited": false,
-          "ms": 4035,
-          "code": 0
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -9423,6 +9444,14 @@
           "ms": 7,
           "code": 0,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 7,
+          "code": 0,
+          "vantage": "local"
         }
       ]
     },
@@ -9430,13 +9459,6 @@
       "url": "https://github.com/gedoor/legado",
       "host": "github.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 668,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -9748,6 +9770,14 @@
           "ms": 479,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 347,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -9755,13 +9785,6 @@
       "url": "https://kazumi.app/download",
       "host": "kazumi.app",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 534,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -10073,6 +10096,14 @@
           "ms": 306,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 504,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -10080,13 +10111,6 @@
       "url": "https://animeko.org/downloads/",
       "host": "animeko.org",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 115,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -10398,6 +10422,14 @@
           "ms": 78,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 64,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -10405,13 +10437,6 @@
       "url": "https://b.zhuiju.me/archives/4/",
       "host": "b.zhuiju.me",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 1465,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": false,
@@ -10723,6 +10748,14 @@
           "ms": 171,
           "code": 444,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 463,
+          "code": 444,
+          "vantage": "local"
         }
       ]
     },
@@ -10730,13 +10763,6 @@
       "url": "https://tv.xn--yhqu5zs87a.top/",
       "host": "tv.xn--yhqu5zs87a.top",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 636,
-          "code": 200
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -11048,6 +11074,14 @@
           "ms": 153,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 98,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -11055,13 +11089,6 @@
       "url": "http://xhztv.top/4k.json",
       "host": "xhztv.top",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 389,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -11373,6 +11400,14 @@
           "ms": 39,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 13,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -11380,13 +11415,6 @@
       "url": "http://xhztv.top/dc",
       "host": "xhztv.top",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 1109,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -11698,6 +11726,14 @@
           "ms": 76,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 73,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -11705,13 +11741,6 @@
       "url": "https://raw.liucn.cc/box/m.json",
       "host": "raw.liucn.cc",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 472,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -12023,6 +12052,14 @@
           "ms": 186,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 248,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -12030,13 +12067,6 @@
       "url": "http://ztha.top/TVBox/GYCK.json",
       "host": "ztha.top",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 2023,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -12348,6 +12378,14 @@
           "ms": 1614,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1916,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -12355,13 +12393,6 @@
       "url": "https://github.com/mtvpls/MoonTVPlus",
       "host": "github.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 348,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -12673,6 +12704,14 @@
           "ms": 437,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 573,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -12680,13 +12719,6 @@
       "url": "https://github.com/Hiram-Wong/zyfun",
       "host": "github.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 380,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -12998,6 +13030,14 @@
           "ms": 512,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 585,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -13005,13 +13045,6 @@
       "url": "https://github.com/fish2018/pansou",
       "host": "github.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 681,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -13323,6 +13356,14 @@
           "ms": 24,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 22,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -13330,13 +13371,6 @@
       "url": "https://github.com/Cp0204/quark-auto-save",
       "host": "github.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 563,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -13648,6 +13682,14 @@
           "ms": 449,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 349,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -13655,13 +13697,6 @@
       "url": "https://github.com/jiangrui1994/CloudSaver",
       "host": "github.com",
       "runs": [
-        {
-          "d": "2026-10-25",
-          "ok": true,
-          "limited": false,
-          "ms": 356,
-          "code": 206
-        },
         {
           "d": "2026-10-25",
           "ok": true,
@@ -13973,6 +14008,14 @@
           "ms": 400,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 390,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -14225,6 +14268,14 @@
           "ok": true,
           "limited": false,
           "ms": 1365,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 383,
           "code": 200,
           "vantage": "local"
         }
@@ -14481,6 +14532,14 @@
           "ms": 547,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 205,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -14733,6 +14792,14 @@
           "ok": true,
           "limited": false,
           "ms": 258,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 256,
           "code": 200,
           "vantage": "local"
         }
@@ -14989,6 +15056,14 @@
           "ms": 642,
           "code": 0,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": false,
+          "ms": 587,
+          "code": 0,
+          "vantage": "local"
         }
       ]
     },
@@ -15241,6 +15316,14 @@
           "ok": true,
           "limited": false,
           "ms": 180,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 169,
           "code": 200,
           "vantage": "local"
         }
@@ -15497,6 +15580,14 @@
           "ms": 544,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 136,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -15749,6 +15840,14 @@
           "ok": true,
           "limited": false,
           "ms": 34,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 31,
           "code": 206,
           "vantage": "local"
         }
@@ -16005,6 +16104,14 @@
           "ms": 435,
           "code": 403,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": false,
+          "limited": true,
+          "ms": 433,
+          "code": 403,
+          "vantage": "local"
         }
       ]
     },
@@ -16257,6 +16364,14 @@
           "ok": true,
           "limited": false,
           "ms": 131,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 141,
           "code": 200,
           "vantage": "local"
         }
@@ -16513,6 +16628,14 @@
           "ms": 150,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 123,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -16765,6 +16888,14 @@
           "ok": true,
           "limited": false,
           "ms": 539,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 492,
           "code": 200,
           "vantage": "local"
         }
@@ -17021,6 +17152,14 @@
           "ms": 499,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1160,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -17273,6 +17412,14 @@
           "ok": true,
           "limited": false,
           "ms": 844,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 843,
           "code": 200,
           "vantage": "local"
         }
@@ -17529,6 +17676,14 @@
           "ms": 995,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 749,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -17781,6 +17936,14 @@
           "ok": true,
           "limited": false,
           "ms": 1162,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 753,
           "code": 200,
           "vantage": "local"
         }
@@ -18037,6 +18200,14 @@
           "ms": 744,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 871,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -18289,6 +18460,14 @@
           "ok": true,
           "limited": false,
           "ms": 1066,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1033,
           "code": 200,
           "vantage": "local"
         }
@@ -18545,6 +18724,14 @@
           "ms": 586,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 593,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -18797,6 +18984,14 @@
           "ok": true,
           "limited": false,
           "ms": 183,
+          "code": 202,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 408,
           "code": 202,
           "vantage": "local"
         }
@@ -19053,6 +19248,14 @@
           "ms": 1153,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1138,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -19305,6 +19508,14 @@
           "ok": true,
           "limited": false,
           "ms": 35,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 24,
           "code": 206,
           "vantage": "local"
         }
@@ -19561,6 +19772,14 @@
           "ms": 495,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 476,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -19813,6 +20032,14 @@
           "ok": true,
           "limited": false,
           "ms": 557,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 478,
           "code": 206,
           "vantage": "local"
         }
@@ -20069,6 +20296,14 @@
           "ms": 395,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 409,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -20321,6 +20556,14 @@
           "ok": true,
           "limited": false,
           "ms": 225,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 160,
           "code": 206,
           "vantage": "local"
         }
@@ -20577,6 +20820,14 @@
           "ms": 401,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 414,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -20831,6 +21082,14 @@
           "ms": 802,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 2506,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -21037,6 +21296,14 @@
           "ms": 499,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1993,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -21238,6 +21505,14 @@
         },
         {
           "d": "2026-11-26",
+          "ok": true,
+          "limited": false,
+          "ms": 557,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
           "ok": true,
           "limited": false,
           "ms": 557,
@@ -21449,6 +21724,14 @@
           "ms": 1158,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 2350,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -21653,6 +21936,14 @@
           "ok": true,
           "limited": false,
           "ms": 234,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 66,
           "code": 200,
           "vantage": "local"
         }
@@ -21861,6 +22152,14 @@
           "ms": 354,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 406,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -22065,6 +22364,14 @@
           "ok": true,
           "limited": false,
           "ms": 124,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 94,
           "code": 200,
           "vantage": "local"
         }
@@ -22273,6 +22580,14 @@
           "ms": 1178,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 752,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -22477,6 +22792,14 @@
           "ok": true,
           "limited": false,
           "ms": 324,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 243,
           "code": 200,
           "vantage": "local"
         }
@@ -22685,6 +23008,14 @@
           "ms": 1887,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1088,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -22889,6 +23220,14 @@
           "ok": true,
           "limited": false,
           "ms": 1305,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 697,
           "code": 206,
           "vantage": "local"
         }
@@ -23097,6 +23436,14 @@
           "ms": 1061,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1557,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -23301,6 +23648,14 @@
           "ok": true,
           "limited": false,
           "ms": 533,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 668,
           "code": 200,
           "vantage": "local"
         }
@@ -23509,6 +23864,14 @@
           "ms": 603,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 328,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -23713,6 +24076,14 @@
           "ok": true,
           "limited": false,
           "ms": 1508,
+          "code": 206,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 1411,
           "code": 206,
           "vantage": "local"
         }
@@ -23921,6 +24292,14 @@
           "ms": 630,
           "code": 206,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 355,
+          "code": 206,
+          "vantage": "local"
         }
       ]
     },
@@ -24127,6 +24506,14 @@
           "ms": 528,
           "code": 200,
           "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 349,
+          "code": 200,
+          "vantage": "local"
         }
       ]
     },
@@ -24331,6 +24718,14 @@
           "ok": true,
           "limited": false,
           "ms": 390,
+          "code": 200,
+          "vantage": "local"
+        },
+        {
+          "d": "2026-11-27",
+          "ok": true,
+          "limited": false,
+          "ms": 205,
           "code": 200,
           "vantage": "local"
         }
